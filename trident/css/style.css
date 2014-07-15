@@ -1,0 +1,495 @@
+header {
+	background-color:black;
+	height:40px;
+	color:white;
+	margin-left:-20px;
+	margin-top:0;
+	margin-bottom:0;
+	width:100%;
+}
+body {
+	margin-top:-20px;
+	margin-right:-20px;
+}
+#menu {
+	height:150px;
+	width:1298px;
+	color:white;
+	background-color:black;
+	opacity:0.8;
+	font-family:Copperplate;
+	margin-top:-20px;
+	margin-left:-15px;
+}
+#social p {
+	font-family:Copperplate;
+	color:white;
+}
+#menu h2 {
+	margin-left:20px;
+	margin-top:20px;
+	position:relative;
+	top:20px;
+}
+#menu li {
+	font-family:PT Sans;
+}
+.content {
+	width:950px;
+}
+.griddle {
+	text-decoration: underline;
+	font-weight:bold;
+	font-size:18px;
+}
+.sides p {
+	margin-top:-20px;
+}
+.add {
+	padding-bottom:15px;
+}
+#food-menu {
+	width:700px;
+	height:470px;
+	padding-left:20px;
+	padding-right:20px;
+	background:#F5F1DE;
+	text-align:center;
+	color:black;
+	overflow:scroll;
+	position:relative;
+	top:0px;
+	left:220px;
+	opacity:0.95;
+	font-family:Copperplate;
+}
+#food-menu p {
+	font-family:PT Sans;
+}
+#intro {
+	background:#F5F1DE;
+	font-family:Arial;
+	opacity:0.9;
+	width:520px;
+	height:350px;
+}
+#food-menu img {
+	margin: 15px 15px 15px 15px;
+	border:2px solid gray;
+}
+#food-menu h2 {
+	text-decoration:underline;
+}
+ul {
+	list-style-type:none;
+	position:relative;
+	left:300px;
+	bottom:40px;
+}
+li {
+	display:inline;
+	margin-left:19px;
+}
+li a {
+	color:white;
+	text-decoration:none;
+}
+#social p {
+	text-align:right;
+	position:relative;
+	bottom:22px;
+	right:10px;
+}
+body .logo {
+	float:right;
+	margin-top:100px;
+}
+.slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+#calendar {
+	margin-left:393px;
+}
+#calendar td {
+	height:60px;
+	width:60px;
+	font-family:Arial;
+	border:solid black 2px;
+	margin:0;
+	background:#F5F1DE;
+	font-size:10px;
+}
+#month {
+	text-align:center;
+	color:white;
+	font-family:PT Sans;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+   	font-size:48px;
+   	margin-top:0px;
+   	margin-bottom:0px;
+}
+.private {
+	text-align:center;
+	color:white;
+	font-family:PT Sans;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+   	font-size:48px;
+   	margin-top:0px;
+   	margin-bottom:0px;
+}
+.private-content {
+	width:450px;
+	margin-left: 10px;
+	margin-right:10px;
+	padding-left:10px;
+	padding-right:10px;
+	background:#F5F1DE;
+	font-family:PT Sans;
+}
+.private-hours {
+	width:450px;
+	margin-left: 10px;
+	margin-right:10px;
+	background:white;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:PT Sans;
+}
+.contact-info {
+	margin-left: 10px;
+	margin-right:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background:#F5F1DE;
+	font-family:PT Sans;
+	width:270px;
+	position:relative;
+	top:-54px;
+}
+#directions span {
+	display:inline-block;
+}
+.room {
+	margin: 8px 3px 3px 3px;
+}
+a {
+	text-decoration: none;
+}
+#rental {
+	width:420px;
+	font-family:PT Sans;
+	margin-top:5px;
+}
+#about {
+	width:650px;
+	background:#F5F1DE;
+}
+#about h1, #apply h1 {
+	margin-top:-10px;
+	margin-bottom:-5px;
+}
+#about p {
+	margin-bottom:5px;
+}
+#apply {
+	width:300px;
+	background:#F5F1DE;
+	position:relative;
+	bottom:252px;
+}
+header div {
+	display:inline-block;
+}
+header img {
+	margin-top:25px;
+}
+header h1 {
+	font-size:42px;
+}
+.motto {
+	background:#1F2235;
+	height:156px;
+	font-family:Copperplate;
+}
+.tea {
+	width:200px;
+}
+.tea p {
+	margin-top:-20px;
+}
+.product-details div {
+	display:inline-block;
+}
+.product-description {
+	margin-top:-35px;
+}
+.product-info {
+	font-family:PT Sans;
+	width:300px;
+	height:250px;
+	position:relative;
+	bottom:90px;
+}
+.product-info input {
+	margin-top:20px;
+	margin-left:0;
+}
+.required {
+	color:red;
+}
+.site-map {
+	color:white;
+	margin-top:-35px;
+}
+.leader img {
+	margin-left:28px;
+}
+.sitemap a {
+	color:white;
+}
+footer a {
+	color:white;
+}
+#nav {
+	font-family:PT Sans;
+	height:40px;
+	width:440px;
+	font-weight:bold;
+	font-size:16px;
+	background:#A25F5F;
+	border:2px solid #450E00;
+	margin-top:38.5px;
+	margin-left:33px;
+}
+#nav li {
+	position:relative;
+	right:28px;
+	top:10px;
+}
+#nav li a {
+	color:#450E00;
+}
+.read {
+	position:relative;
+	left:22px;
+	bottom:32px;
+}
+.read h4 {
+	margin-top:-12px;
+	font-size:20px;
+}
+#login {
+	font-family:PT Sans;
+}
+.aisle span p {
+	margin-top:-40px;
+	margin-bottom:5px;
+}
+#contactusForm {
+	margin-top:20px;
+}
+.aisle {
+	background-color:#FAC3A9;
+	margin-left:3px;
+	margin-top:0px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:10px;
+	padding-top:1px;
+	width:799px;
+}
+footer {
+	text-align:center;
+	color:white;
+	font-family:PT Sans;
+}
+#cards img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.aisle img {
+	margin-left:10px;
+	margin-right:15px;
+	margin-top:10px;
+}
+.aisle p {
+	padding-top:48px;
+	font-family:PT Sans;
+	font-weight:bold;
+	font-size:16px;
+}
+.aisle td p {
+	font-size:12px;
+	text-align:center;
+	margin-bottom:5px;
+	margin-top:8px;
+	padding-top:0;
+}
+.aisle h2 {
+	font-family:PT Sans;
+	margin-bottom:5px;
+}
+.aisle a {
+	color:black;
+}
+.seemore {
+	margin-top:-35px;
+}
+.window input {
+	background-image:url("../images/add-to-cart.jpg");
+}
+.welcome {
+	margin-top:-80px;
+}
+#search {
+	width:200px;
+	float:right;
+	margin-top:-1213px;
+	margin-left:-650px;
+	color:white;
+	font-family:PT Sans;
+	font-size:16px;
+}
+#advanced #search {
+	position:relative;
+	top:592px;
+	right:38px;
+}
+#search a {
+	color:white;
+}
+.crumbs {
+	margin-top:-135px;
+}
+#search input {
+	margin-left:0;
+}
+#search hr {
+	color:#310404;
+	width:200px;
+}
+#searchQuickForm div {
+	display:inline-block;
+}
+#maroon {
+	background:#450E00;
+}
+input {
+	margin-left:37px;
+}
+.visiting {
+	margin-top:-45px;
+}
+#us div {
+	display:inline-block;
+	font-family:PT Sans;
+	margin-left: 10px;
+	margin-right:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#private-top div {
+	display:inline-block;
+}
+.week {
+	text-align: center;
+}
+#calendar .date {
+	font-weight: bold;
+	position:relative;
+	bottom:22px;
+	left:47px;
+}
+#calendar #days td {
+	height:30px;
+	width:60px;
+	font-weight:bold;
+}
+.event {
+	margin-top:-18px;
+	font-weight:bold;
+}
+.boston {
+	float:right;
+}
+.or {
+	position:relative;
+	top:-30px;
+}
+.bg-slideshow,
+.bg-slideshow:after {
+	position:fixed;
+	width:100%;
+	height:100%;
+	top: 0px;
+	left: 0px;
+	z-index:-1;
+}
+/*.bg-slideshow:after {
+	content:'';
+	background: url('http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P10002341.jpg');
+}*/
+.bg-slideshow li span {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:transparent;
+	background-size: cover;
+	background-position:50% 50%;
+	background-repeat:none;
+	opacity:0;
+	z-index:-2;
+	-webkit-backface-visibility:hidden;
+	-webkit-animation: imageAnimation 35s linear infinite 0s;
+}
+.bg-slideshow li:nth-child(1) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P10002341.jpg);
+}
+.bg-slideshow li:nth-child(2) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P1000236.jpg);
+	-webkit-animation-delay: 5s;
+}
+.bg-slideshow li:nth-child(3) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P1000248.jpg);
+	-webkit-animation-delay: 10s;
+}
+.bg-slideshow li:nth-child(4) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P1000253.jpg);
+	-webkit-animation-delay: 15s;
+}
+.bg-slideshow li:nth-child(5) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/P1000241.jpg);
+	-webkit-animation-delay: 20s;
+}
+.bg-slideshow li:nth-child(6) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/cafe.jpg);
+	-webkit-animation-delay: 25s;
+}
+.bg-slideshow li:nth-child(7) span {
+	background-image:url(http://tridentbookscafe.com/wp-content/uploads/slideshow-gallery/photo17-e1390341435586.jpg);
+	-webkit-animation-delay: 30s;
+}
+@-webkit-keyframes imageAnimation {
+	0% { opacity: 0; -webkit-animation-timing-function: ease-in;}
+	12% { opacity: 1; -webkit-animation-timing-function: ease-out;}
+	25% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 0; }
+}
+.no-cssanimations .bg-slideshow li span {
+	opacity:1;
+}

@@ -1,0 +1,140 @@
+body {
+	background:#eaf7f7;
+}
+.lever {
+	position:relative;
+	right:155px;
+	top:900px;
+}
+.spring {
+	position:relative;
+	right:18px;
+	top:728px;
+}
+.ball {
+	position:relative;
+	top:778px;
+}
+.gutter {
+	position:relative;
+	left:182px;
+	top:13px;
+}
+.center {
+	position:relative;
+	top:115px;
+	left:204px;
+}
+canvas {
+	position:relative;
+	right:120px;
+}
+.board {
+	height: 933px;
+width: 730px;
+margin-top: -1022px;
+margin-left: 3px;
+background-image: url("../images/pinball.jpg");
+background-size: cover;
+}
+/*canvas {
+background-image:url('../images/pinball.jpg');
+margin-top:100px;
+background-size:cover;
+}*/
+#board {
+	background-image:url('images/pinball.jpg');
+	border:2px solid black;
+	height:900px;
+	width:700px;
+	float:left;
+	margin-top:200px;
+}
+.ball-left {
+	position:relative;
+	left:15px;
+	bottom:140px;
+}
+.ball-right {
+	position:relative;
+	left:397px;
+	bottom:134px;
+}
+.hole {
+	position:relative;
+	top:320px;
+	left:-89px;
+}
+.goldstar {
+	position:relative;
+	top:140px;
+	left:-235px;
+}
+.silverstar {
+	position:relative;
+	top:135px;
+	left:229px;
+}
+#shooter {
+	background-color:#fbc183;
+	border:5px solid #a8001c;
+	height:892px;
+	width:40px;
+	float:left;
+}
+#shooter img {
+	float:bottom;
+}
+/*.clearfix {
+	overflow:none;
+} */
+div .flipper-left {
+	position:relative;
+	top:692px;
+	left:-272px;
+}
+div .flipper-right {
+	position:relative;
+	top:536px;
+	left:358px;
+}
+#points {
+	width:240px;
+	height:230px;
+	background:#0c0853;
+	position:relative;
+	bottom:1250px;
+	left:800px;
+}
+.rack {
+	float:right;
+	width:450px;
+}
+#points img {
+	float:right;
+	margin:auto;
+	padding-bottom:0px;
+}
+#pts {
+	position:relative;
+	left:230px;
+	top:-10px;
+	color:white;
+	font-size:32px;
+	font-family:Arial;
+	font-weight:bold;
+}
+.rack h2 {
+	color:white;
+	font-size:32px;
+	font-family:Arial;
+	font-weight:bold;
+	position:relative;
+	bottom:20px;
+	left:230px;
+}
+.newgame {
+	position:relative;
+	top:-15px;
+	right:45px;
+}
