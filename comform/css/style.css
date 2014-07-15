@@ -1,0 +1,107 @@
+body {
+	font-family: Tahoma,Geneva,sans-serif;
+}
+#logo {
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#entrydate {
+	float:right;
+	width:180px;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+h1 {
+	font-size: 56px;
+	font-weight: bold;
+	margin: 20px 0px 20px 0px !important;
+	color: #333333;
+	border-left: 20px solid #CC0000 !important;
+	padding: 0px 0px 0px 10px;
+	letter-spacing: -1px;
+}
+#emergency-contact {
+	width:50%;
+}
+#alternate-emergency {
+	width:40%;
+	float:right;
+	position:relative;
+	bottom:15px;
+}
+label, .emergency-phone {
+	font-size:12px;
+	position:relative;
+	z-index:1;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+.emergency-phone {
+	margin-bottom:0px;
+}
+.alert, .cellphone, .sex, .marital-status {
+	font-weight:normal;
+	text-transform:none;
+}
+input.input-text {
+	position:relative;
+	z-index:2;
+	}
+#shs {
+	margin-top:10px;
+	font-size:12px;
+	width:700px;
+}
+#relationshipstudent {
+	margin-bottom:10px;
+}
+.disclaimer {
+	font-size:12px;
+}
+h3, #massstate {
+	text-align:center;
+}
+ol li {
+	margin-bottom:10px;
+}
+td {
+	padding:auto;
+}
+table {
+	margin-bottom:10px;
+}
+.must {
+	text-align:center;
+}
+.office {
+	text-align:center;
+	border:1px solid black;
+	width:200px;
+	position:relative;
+	left:42%;
+	padding:auto;
+}
+#lefthalf, .lefthalf2, .lefthalf3 {
+	width:49%;
+}
+.righthalf, .righthalf2, .righthalf3 {
+	width:49%;
+	float:right;
+}
+hr {
+	width:100%;
+	margin-top:10px;
+}
+.fullname {
+	width:300px;
+}
+#email {
+	display:block;
+	width:300px;
+}
+#street, #box, #studentsig, #emergencyphone, #program, #relationshipstudent, .studentdate, #parentsig, #parentname, #city, #state, #initial, #zip, #institution, .buid, .cellphone, .grade, #contactname1, #address1, #city1, #state1, #zip1, #contactphone1, #contactname, #address, #city, #state, #zip, #contactphone {
+	display:block;
+}

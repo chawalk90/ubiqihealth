@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<metacharset="utf-8">
+<meta name="description" content="Your description goes here">
+<meta name="keywords" content="one, two, three">
+<title>Blank Template</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="board">
+	</div>
+	<div id="shooter">
+	</div>
+</body>
+</html>

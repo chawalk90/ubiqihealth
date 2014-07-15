@@ -1,0 +1,26 @@
+.office {
+	text-align:center;
+	border:1px solid black;
+	width:200px;
+	position:relative;
+	left:42%;
+	padding:auto;
+} 
+h3, .license {
+	text-align:center;
+}
+.marry {
+	margin-left:15px;
+	margin-right:15px;
+}
+#lefthalf, .lefthalf2, .lefthalf3 {
+	width:50%;
+}
+.righthalf, .righthalf2, .righthalf3 {
+	width:50%;
+	float:right;
+}
+hr {
+	width:100%;
+	margin-top:10px;
+}
