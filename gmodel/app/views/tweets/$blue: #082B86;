@@ -1,0 +1,9 @@
+$blue: #082B86;
+
+h1 {
+	color: $blue;
+}
+
+.bird_name {
+	display:name;
+}
