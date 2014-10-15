@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}"{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="keywords" content="{% block meta_keywords %}{% endblock %}">
+<meta name="description" content="{% block meta_description %}{% endblock %}">
+<title>{% block meta_title %}{% endblock %}{% if settings.SITE_TITLE %} | {{ settings.SITE_TITLE }}{% endif %}</title>
+<link rel="shortcut icon" href="{% static "img/favicon.ico" %}">
+
+{% ifinstalled mezzanine.blog %}
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{% url "blog_post_feed" "rss" %}">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="{% url "blog_post_feed" "atom" %}">
+{% endifinstalled %}
+
+{% compress css %}
+<link rel="stylesheet" href="{% static "css/mezzanine-custom.css" %}">
+<link rel="stylesheet" href="{% static "css/styles.css" %}">
+{% if LANGUAGE_BIDI %}
+<link rel="stylesheet" href="{% static "css/rtl.css" %}">
+{% endif %}
+{% block extra_css %}{% endblock %}
+{% endcompress %}
+
+{% compress js %}
+<!--script src="{% static "mezzanine/js/"|add:settings.JQUERY_FILENAME %}"></script-->
+<script src="{% static "js/jquery-1.11.1.js" %}"></script>
+<script src="{% static "js/bootstrap.js" %}"></script>
+
+{% block extra_js %}{% endblock %}
+{% endcompress %}
+
+<!--[if lt IE 9]>
+<script src="{% static "js/html5shiv.js" %}"></script>
+<script src="{% static "js/respond.min.js" %}"></script>
+<![endif]-->
+
+<body id="{% block body_id %}body{% endblock %}">
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">
+            <img alt="{{ settings.SITE_TITLE }}" src="{% static 'img/logo.png' %}">
+          </a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      {% page_menu "pages/menus/top_menu.html" %}
+    </div>
+  </div>
+</nav>
+
+<div id="main-wrapper" class="container container-wide">
+  {% block main %}{% endblock %}
+</div>
+
+{% block extra_content %}{% endblock %}
+
+<footer>
+  <div class="container">
+    <div class="row footer">
+      {% page_menu "pages/menus/footer.html" %}
+
+      <div class="socials">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.facebook.com/kliohealth">
+              <img src="{% static 'img/social_icon_facebook.png' %}">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/kliohealth">
+              <img src="{% static 'img/social_icon_twitter.png' %}">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/klio-health?trk=top_nav_home">
+              <img src="{% static 'img/social_icon_linkedin.png' %}">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="container">
+    <div class="row">
+      <div class="col col-main copyright">
+        <p>© 2014 Klio Health. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "includes/footer_scripts.html" %}
+
+</body>
+</html>

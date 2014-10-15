@@ -1,0 +1,61 @@
+
+.navbar-brand {
+    padding: 30px 40px;
+}
+
+#top-menu {
+    /*
+    position: absolute;
+    margin-left: 230px;
+    padding-top: 22px;
+    right: 40px;
+    top: 0;
+    text-align: right;
+    */
+    li {
+        padding-right: 6px;
+        padding-left: 6px;
+        @media(min-width: @screen-sm){
+            padding-top:60px;
+        }
+        @media(max-width: @screen-sm){
+            padding-top:15px;
+            padding-bottom:25px;
+            padding-right:60px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /*
+        display: inline-block;
+        */
+        
+        text-transform: uppercase;
+        
+        a {
+            padding: 3px;
+        }
+        a:hover {
+            color: @primary;
+            background-color: @white;
+        }
+    }
+
+    li.active a {
+        pointer-events: none;
+        cursor: default;
+        color: @greyDark;
+    }
+
+    li.signin a {
+        color: @primary;
+    }
+
+    li.signup a {
+        .border-top-radius(13px);
+        .border-bottom-radius(13px);
+        background-color: @primary;
+        color: @white;
+        padding: 3px 7px;
+    }
+}

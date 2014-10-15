@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row">
+  <div class="col-xs-12 main-photo-block">
+      <div class="img-wrapper">
+       <img src="{% static 'img/about.png' %}">
+     </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+    <div class="col-xs-12 main-message">
+      <h1>ABOUT THE COMPANY</h1>
+      <p class="grey" id="about-p">
+        Klio Health was founded by experienced entrepreneurs, designers, and engineers who saw that
+        people dealing with chronic conditions do not have good ways of determining whether
+        treatments or lifestyle changes are actually effective. We help the millions with chronic
+        conditions and their care providers efficiently track symptoms and treatments. We approach
+        this in a standardized, engaging manner that saves both time and improves the quality of care.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row team-block">
+  <div class="restricted">
+
+
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Jacqueline.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Jacqueline Thong</p>
+      <p>Co-founder</p>
+    </div>
+
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Anshuman.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Anshuman Sharma</p>
+      <p>Co-founder</p>
+    </div>
+
+    <div class="clearfix visible-xs-block"></div>
+
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Zahra.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Zahra Barzin</p>
+      <p>Product</p>
+    </div>
+
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Rafael.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Rafael Pivato</p>
+      <p>Product</p>
+    </div>
+
+    <div class="clearfix visible-xs-block"></div>
+    
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Igor.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Igor Izraylevych</p>
+      <p>Product</p>
+    </div>
+
+    <div class="col col-member">
+      <p><img src="{% static 'img/Team_Rebecca.png' %}" width="200" class="img-circle" /></p>
+      <p class="bolder">Rebecca Liebman</p>
+      <p>Marketing</p>
+    </div>
+
+    <div class="clearfix visible-xs-block"></div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

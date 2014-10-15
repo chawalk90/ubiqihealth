@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row row-primary">
+  <div class="restricted">
+    <div class="col-xs-12 press-block">
+      <h1>IN THE PRESS</h1>
+      <div class="row press-list">
+        {% for press in page.presspage.press.all %}
+          <div class="col col-xs-12 col-sm-6 col-md-4">
+            <a href="{{ press.link }}" target="_blank" alt="{{ press.title }}"
+               title="{{ press.title }}">
+              <img src="{{ MEDIA_URL }}{% thumbnail press.logo 240 150 padding=True %}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

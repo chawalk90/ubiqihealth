@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<!--<div class="row row-primary">
+  <div class="restricted">
+    <div class="col-xs-12 main-block">
+      <p><img src="{% static 'img/jobs_icon.png' %}" /></p>
+      <p>Do you want to create a product that improves the lives of the millions with chronic
+         conditions? Are you excited about working in a fast-paced startup? We’re always looking
+         for talented, energetic people to join our Boston team.<p>
+    </div>
+  </div>
+</div>-->
+
+<div class="row">
+  <div class="col-xs-12 main-photo-block">
+    <div class="img-wrapper">
+      <img src="{% static 'img/jobs.png' %}">
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+
+    <div class="col-xs-12 main-message">
+      {% if page.jobspage.jobs.all %}
+        <h1>OPEN POSITIONS</h1>
+      {% else %}
+        <h1>THERE ARE NO OPEN POSITIONS RIGHT NOW</h1>
+      {% endif %}
+
+      <ul class="jobs-list">
+        {% for job in page.jobspage.jobs.all %}
+          <div class="job-item">
+            {% editable job.title %}
+              <a name="job{{ job.id }}"></a>
+              <li  class="job-title"><span class="underline">{{ job.title }}&nbsp;</span></li>
+            {% endeditable %}
+
+            {% editable job.description %}
+              <div class="job-description">
+                {{ job.description|richtext_filters|safe }}
+              </div>
+            {% endeditable %}
+          </div>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+
+{% block extra_js %}
+  <script src="{% static "js/jobs.js" %}"></script>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% load mezzanine_tags comment_tags keyword_tags %}
+
+{% block meta_title %}{{ obj }}{% endblock %}
+
+{% block meta_keywords %}{% metablock %}
+{% keywords_for obj as tags %}
+{% for tag in tags %}{% if not forloop.first %}, {% endif %}{{ tag }}{% endfor %}
+{% endmetablock %}{% endblock %}
+
+{% block meta_description %}{% metablock %}
+{{ obj.description }}
+{% endmetablock %}{% endblock %}
+
+
+{% block main %}
+
+<div class="row row-primary blog">
+  <div class="restricted">
+
+    <div class="col col-xs-12 col-sm-9 col-blog-main">
+      <div class="row">
+
+        <div class="author-pic"></div>
+        <div class="content">
+          {% comments_for obj %}
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

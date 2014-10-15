@@ -1,0 +1,60 @@
+{% overextends "blog/blog_post_list.html" %}
+{% load i18n future mezzanine_tags blog_tags keyword_tags staticfiles %}
+
+
+{% block main %}
+
+<div class="row row-primary blog">
+  <div class="restricted">
+
+    <div class="col col-xs-12 col-sm-9 col-blog-main">
+      <div class="row">
+
+      {% block blog_content %}
+        <div class="author-pic"></div>
+        <div class="content">
+          {% block title %}
+            <h1>
+              {% if category %}
+                {{ category }}
+              {% elif tag %}
+                Tag: {{ tag }}
+              {% else %}
+                {% if year or month %}
+                  {% if month %}{{ month }}, {% endif %}
+                  {{ year }}
+                {% else %}
+                  THIS MONTH
+                {% endif %}
+              {% endif %}
+            </h1>
+          {% endblock %}
+        </div>
+
+        {% include page_template %}
+      {% endblock %}
+
+      {% if settings.COMMENTS_DISQUS_SHORTNAME %}
+      {% include "generic/includes/disqus_counts.html" %}
+      {% endif %}
+
+      </div>
+    </div>
+
+    <div class="col hidden-xs col-sm-3 col-blog-side">
+      <div class="content">
+        {% include "blog/includes/filter_panel.html" %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+
+{% block extra_js %}
+    <script src="{{ STATIC_URL }}endless_pagination/js/endless-pagination.js"></script>
+    <script src="{{ STATIC_URL }}js/blog-pagination.js"></script>
+    <script src="{{ STATIC_URL }}js/blog.js"></script>
+{% endblock %}

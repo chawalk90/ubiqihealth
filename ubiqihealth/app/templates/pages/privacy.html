@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row row-primary">
+  <div class="restricted">
+    <div class="col-xs-12 main-block">
+      <p><img src="{% static 'img/privacy_icon.png' %}" /></p>
+      <p>At Klio, we know that when individuals & their care providers come together, everyone benefits from better health information. We take your privacy very seriously & believe in keeping your information secure.<p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+
+    <!--div class="col-xs-12 main-message"-->
+    <div class="col-sm-5 main-message">
+      <h4 class="maroon">PRIVACY PRINCIPLES</h4>
+      <ol>
+        <li>You decide what information to provide us.</li>
+        <li>You decide who to share your information with.</li>
+        <li>We do not share or sell your identifiable information.</li>
+        <li>Your information is used to help you.</li>
+      </ol>
+    </div>
+
+    <div class="col-sm-7 main-message">
+      <h4 class="maroon">HOW WE KEEP YOUR INFORMATION SECURE</h4>
+      <ul>
+        <li>Access to our service is password protected.</li>
+        <li>We encrypt your data while it is being transmitted and when it is stored.</li>
+        <li>We conduct regular backups of your data.</li>
+        <li>We use security levels similar to those used within banking applications.</li>
+        <li>Our system and infrastructure complies with industry privacy standards.</li>
+      </ul>
+    </div>
+    </br>
+    <h3 id="read-policy">To read our Terms of Use and Privacy policy, <a href="/terms-of-use">click here</a></h3>
+  </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row">
+  <div class="col-xs-12 main-photo-block">
+    <div class="img-wrapper">
+       <img src="{% static 'img/HOME.png' %}">
+     </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+    <div class="col-xs-12 main-message">
+      <h1><bold>HEALTH IN SIGHT</bold></h1>
+      <p class="grey">We help providers deliver better care of chronic conditions by enabling a clear
+         understanding of how patients are progressing between office visits.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+
+    <div class="col-xs-4 col-feature">
+      <img src="{% static 'img/symptoms_icon.png' %}" width="101" />
+      <h2 class="green">MEASURE SYMPTOMS</h2>
+      <p>Assess condition status through relevant indicators.</p>
+    </div>
+
+    <div class="col-xs-4 col-feature">
+      <img src="{% static 'img/treatments_icon.png' %}" width="101" />
+      <h2 class="maroon">EVALUATE TREATMENTS</h2>
+      <p>Decide whether therapies need to be modified.</p>
+    </div>
+
+    <div class="col-xs-4 col-feature">
+      <img src="{% static 'img/lifestyle_icon.png' %}" width="101" />
+      <h2 class="yellow">CHART LIFESTYLE</h2>
+      <p>Identify impacts of environment, diet, or physical activity.</p>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

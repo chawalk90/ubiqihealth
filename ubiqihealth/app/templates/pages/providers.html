@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row">
+  <div class="col-xs-12 main-photo-block">
+    <div class="img-wrapper">
+      <img src="{% static 'img/PROVIDER.png' %}">
+      
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+    <div class="col-xs-12 main-message">
+      <p>Klio Health helps you administer better care to your 
+patients by providing an easy way to collect patient-reported symptom and treatment information.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="row restricted">
+  <div class="col-sm-4">
+    
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/provider_thumb_1.png' %}"/>
+        <div class="block-description">
+          <p>Data driven treatment decisions</p>
+        </div>
+      </div> 
+    </div>
+  
+  </div>
+
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/provider_thumb_2.png' %}"/>
+        <div class="block-description">
+          <p>Ability to see patient compliance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/provider_thumb_3.png' %}"/>
+        <div class="block-description">
+          <p>Standardized collection of patient data</p>
+        </div> 
+      </div>       
+    </div>
+  </div>
+</div>
+
+{% endblock %}

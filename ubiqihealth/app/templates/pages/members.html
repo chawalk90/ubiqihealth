@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row">
+  <div class="col-xs-12 main-photo-block">
+    <div class="img-wrapper">
+      <img src="{% static 'img/patienttop.png' %}">
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+    <div class="col-xs-12 main-message">
+      <p>Klio Health helps you communicate more effectively with your
+         care providers by giving you an easy way to track your symptoms and treatment patterns.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row restricted">
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/member_thumb_1.png' %}"/>
+        <div class="block-description">
+          <p>Control how health information is shared</p>
+        </div>
+      </div> 
+    </div> 
+  </div>
+
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/member_thumb_2.png' %}"/>
+        <div class="block-description">
+          <p>Track &amp; understand health condition in an easy way</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="row">
+      <div class="block-highlighted">
+        <img src="{% static 'img/member_thumb_3.png' %}"/>
+        <div class="block-description">
+          <p>Communicate personal health information effectively</p>
+        </div> 
+      </div>       
+    </div>
+  </div>
+</div>
+
+{% endblock %}

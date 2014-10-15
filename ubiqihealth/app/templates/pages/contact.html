@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% load pages_tags mezzanine_tags i18n future staticfiles %}
+
+
+{% block main %}
+
+<div class="row row-primary">
+  <div class="restricted">
+    <div class="col-xs-12 main-block main-contacts-block">
+      <div class="row">
+
+        <div class="col col-xs-12 col-sm-6">
+          <p><img src="{% static 'img/contact_general_icon.png' %}" /></p>
+          <p>GENERAL CONTACT</p>
+          <p class="bolder">hello@kliohealth.com</p>
+        </div>
+
+        <div class="col col-xs-12 col-sm-6">
+          <p><img src="{% static 'img/contact_support_icon.png' %}" /></p>
+          <p>SERVICE SUPPORT</p>
+          <p class="bolder">support@kliohealth.com</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="restricted">
+    <div class="col-xs-12 main-message">
+      <h1><b>ADDRESS</b></h1>
+      <p class="grey bolder">21 Drydock Avenue, 6th floor<br />
+         Boston, MA<br />
+         02210
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

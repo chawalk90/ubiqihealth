@@ -1,0 +1,3257 @@
+[
+{
+    "pk": 8, 
+    "model": "app.jobspage", 
+    "fields": {}
+},
+{
+    "pk": 1, 
+    "model": "app.job", 
+    "fields": {
+        "jobs_page": 8, 
+        "description": "<p>We are seeking a Chief Medical Officer (CMO) to lead the uptake of the Ubiqi Health product in clinical practices. This is an excellent opportunity to take on a leadership role at an exciting startup working to make true impact on the delivery of healthcare!</p>\n<p>You will work within a multidisciplinary team to drive the clinical validation of Ubiqi Health\u2019s product through a series of research studies. Responsibilities will also include providing and soliciting clinical input on the product, growing the physician user-base in multiple therapeutic areas, and supporting business development efforts with ACOs and other provider organizations.</p>\n<p>You will:</p>\n<ul>\n<li><span>Develop the company\u2019s research strategy towards the goal of seeking clinical validation of the product in multiple indications</span></li>\n<li><span>Act as the principal investigator for small-scale, self-sponsored studies\u00a0</span></li>\n<li><span>Prepare research grants and scientific papers on the use of the company\u2019s products as well as clinical findings\u00a0</span></li>\n<li><span>Lead the development and planning of patient reported outcomes programs including aggregating inputs for each indication area\u00a0</span></li>\n<li><span>Develop the strategic plan for delivering against key milestones for research partnerships and physician acquisition\u00a0</span></li>\n<li><span>Build relationships with the physician community\u00a0</span></li>\n<li><span>Represent the company with regulatory and legislative agencies to address the health and medical aspects of our products\u00a0</span></li>\n</ul>\n<p>We\u2019d like it if you have:</p>\n<ul>\n<li><span>M.D. with Board Certification\u00a0</span></li>\n<li><span>Past participation in clinical trials including investigational site management, data collection and interpretation\u00a0</span></li>\n<li><span>Ability to thrive within a collaborative, cross-functional, \u201croll-up- your-sleeves environment.\u201d\u00a0</span></li>\n<li><span>Strong analytical and writing skills with a record of publications\u00a0</span></li>\n<li><span>Effective management, interpersonal, networking, communication, negotiation, and problem solving skills\u00a0</span></li>\n<li><span>Experience in juggling multiple priorities and operating creatively in a resource-constrained environment\u00a0</span></li>\n<li><span>Clinical interests and/or experience in one or more of the following: gastroenterology, pulmonology, rheumatology, allergy/immunology, neurology, pain management, psychiatry</span></li>\n</ul>", 
+        "title": "Chief Medical Officer"
+    }
+},
+{
+    "pk": 10, 
+    "model": "app.presspage", 
+    "fields": {}
+},
+{
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "jobspage", 
+        "name": "jobs page", 
+        "app_label": "app"
+    }
+},
+{
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "job", 
+        "name": "job", 
+        "app_label": "app"
+    }
+},
+{
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "presspage", 
+        "name": "press page", 
+        "app_label": "app"
+    }
+},
+{
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "press", 
+        "name": "press", 
+        "app_label": "app"
+    }
+},
+{
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "permission", 
+        "name": "permission", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "group", 
+        "name": "group", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "user", 
+        "name": "user", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contenttype", 
+        "name": "content type", 
+        "app_label": "contenttypes"
+    }
+},
+{
+    "pk": 9, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "redirect", 
+        "name": "redirect", 
+        "app_label": "redirects"
+    }
+},
+{
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "session", 
+        "name": "session", 
+        "app_label": "sessions"
+    }
+},
+{
+    "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "site", 
+        "name": "site", 
+        "app_label": "sites"
+    }
+},
+{
+    "pk": 12, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "setting", 
+        "name": "Setting", 
+        "app_label": "conf"
+    }
+},
+{
+    "pk": 13, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "sitepermission", 
+        "name": "Site permission", 
+        "app_label": "core"
+    }
+},
+{
+    "pk": 14, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "threadedcomment", 
+        "name": "Comment", 
+        "app_label": "generic"
+    }
+},
+{
+    "pk": 15, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "keyword", 
+        "name": "Keyword", 
+        "app_label": "generic"
+    }
+},
+{
+    "pk": 16, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "assignedkeyword", 
+        "name": "assigned keyword", 
+        "app_label": "generic"
+    }
+},
+{
+    "pk": 17, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "rating", 
+        "name": "Rating", 
+        "app_label": "generic"
+    }
+},
+{
+    "pk": 18, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "blogpost", 
+        "name": "Blog post", 
+        "app_label": "blog"
+    }
+},
+{
+    "pk": 19, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "blogcategory", 
+        "name": "Blog Category", 
+        "app_label": "blog"
+    }
+},
+{
+    "pk": 20, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "form", 
+        "name": "Form", 
+        "app_label": "forms"
+    }
+},
+{
+    "pk": 21, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "field", 
+        "name": "Field", 
+        "app_label": "forms"
+    }
+},
+{
+    "pk": 22, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "formentry", 
+        "name": "Form entry", 
+        "app_label": "forms"
+    }
+},
+{
+    "pk": 23, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "fieldentry", 
+        "name": "Form field entry", 
+        "app_label": "forms"
+    }
+},
+{
+    "pk": 24, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "page", 
+        "name": "Page", 
+        "app_label": "pages"
+    }
+},
+{
+    "pk": 25, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "richtextpage", 
+        "name": "Rich text page", 
+        "app_label": "pages"
+    }
+},
+{
+    "pk": 26, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "link", 
+        "name": "Link", 
+        "app_label": "pages"
+    }
+},
+{
+    "pk": 27, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "gallery", 
+        "name": "Gallery", 
+        "app_label": "galleries"
+    }
+},
+{
+    "pk": 28, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "galleryimage", 
+        "name": "Image", 
+        "app_label": "galleries"
+    }
+},
+{
+    "pk": 29, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "query", 
+        "name": "Twitter query", 
+        "app_label": "twitter"
+    }
+},
+{
+    "pk": 30, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "tweet", 
+        "name": "Tweet", 
+        "app_label": "twitter"
+    }
+},
+{
+    "pk": 31, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "migrationhistory", 
+        "name": "migration history", 
+        "app_label": "south"
+    }
+},
+{
+    "pk": 32, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "logentry", 
+        "name": "log entry", 
+        "app_label": "admin"
+    }
+},
+{
+    "pk": 33, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "comment", 
+        "name": "comment", 
+        "app_label": "comments"
+    }
+},
+{
+    "pk": 34, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "commentflag", 
+        "name": "comment flag", 
+        "app_label": "comments"
+    }
+},
+{
+    "pk": "h8cbc99x1tq0rxrak33k0junems13zqx", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-08-29T22:53:59.036Z", 
+        "session_data": "YzczNGQ2MzdkMTYwYWYwYzFhNzhhMjMwMWYyNmEzNGUzZDdhNDQwNTp7fQ=="
+    }
+},
+{
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+        "domain": "127.0.0.1:8000", 
+        "name": "Klio Health"
+    }
+},
+{
+    "pk": 1, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "GOOGLE_ANALYTICS_ID"
+    }
+},
+{
+    "pk": 2, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "False", 
+        "name": "ADMIN_MENU_COLLAPSED"
+    }
+},
+{
+    "pk": 3, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "10", 
+        "name": "SEARCH_PER_PAGE"
+    }
+},
+{
+    "pk": 4, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "5", 
+        "name": "COMMENTS_NUM_LATEST"
+    }
+},
+{
+    "pk": 5, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "1", 
+        "name": "RICHTEXT_FILTER_LEVEL"
+    }
+},
+{
+    "pk": 6, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "TWITTER_CONSUMER_SECRET"
+    }
+},
+{
+    "pk": 7, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "True", 
+        "name": "COMMENTS_UNAPPROVED_VISIBLE"
+    }
+},
+{
+    "pk": 8, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "SITE_TAGLINE"
+    }
+},
+{
+    "pk": 9, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "search", 
+        "name": "TWITTER_DEFAULT_QUERY_TYPE"
+    }
+},
+{
+    "pk": 10, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "True", 
+        "name": "COMMENTS_REMOVED_VISIBLE"
+    }
+},
+{
+    "pk": 11, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "3", 
+        "name": "TWITTER_DEFAULT_NUM_TWEETS"
+    }
+},
+{
+    "pk": 12, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "BITLY_ACCESS_TOKEN"
+    }
+},
+{
+    "pk": 13, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "False", 
+        "name": "SSL_ENABLED"
+    }
+},
+{
+    "pk": 14, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "AKISMET_API_KEY"
+    }
+},
+{
+    "pk": 15, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "True", 
+        "name": "COMMENTS_DEFAULT_APPROVED"
+    }
+},
+{
+    "pk": 16, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "TWITTER_ACCESS_TOKEN_KEY"
+    }
+},
+{
+    "pk": 17, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "from:stephen_mcd mezzanine", 
+        "name": "TWITTER_DEFAULT_QUERY"
+    }
+},
+{
+    "pk": 18, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "Klio Health", 
+        "name": "SITE_TITLE"
+    }
+},
+{
+    "pk": 19, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "5", 
+        "name": "BLOG_POST_PER_PAGE"
+    }
+},
+{
+    "pk": 20, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "COMMENTS_NOTIFICATION_EMAILS"
+    }
+},
+{
+    "pk": 21, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "COMMENTS_DISQUS_API_PUBLIC_KEY"
+    }
+},
+{
+    "pk": 22, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "COMMENTS_DISQUS_API_SECRET_KEY"
+    }
+},
+{
+    "pk": 23, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "TWITTER_CONSUMER_KEY"
+    }
+},
+{
+    "pk": 24, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "False", 
+        "name": "COMMENTS_ACCOUNT_REQUIRED"
+    }
+},
+{
+    "pk": 25, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "10", 
+        "name": "MAX_PAGING_LINKS"
+    }
+},
+{
+    "pk": 26, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "TWITTER_ACCESS_TOKEN_SECRET"
+    }
+},
+{
+    "pk": 27, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "4", 
+        "name": "TAG_CLOUD_SIZES"
+    }
+},
+{
+    "pk": 28, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "COMMENTS_DISQUS_SHORTNAME"
+    }
+},
+{
+    "pk": 29, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "", 
+        "name": "SSL_FORCE_HOST"
+    }
+},
+{
+    "pk": 30, 
+    "model": "conf.setting", 
+    "fields": {
+        "site": 1, 
+        "value": "False", 
+        "name": "RATINGS_ACCOUNT_REQUIRED"
+    }
+},
+{
+    "pk": 3, 
+    "model": "forms.form", 
+    "fields": {
+        "email_message": "", 
+        "email_copies": "", 
+        "button_text": "Submit", 
+        "response": "<p>Thanks for getting in touch with us. We'll get back to you as soon as possible.</p>", 
+        "content": "<p>Fill in the form below to get in touch with us.</p>", 
+        "send_email": true, 
+        "email_subject": "", 
+        "email_from": ""
+    }
+},
+{
+    "pk": 1, 
+    "model": "forms.field", 
+    "fields": {
+        "field_type": 1, 
+        "_order": 0, 
+        "form": 3, 
+        "default": "", 
+        "required": true, 
+        "label": "Name", 
+        "visible": true, 
+        "help_text": "", 
+        "placeholder_text": "", 
+        "choices": ""
+    }
+},
+{
+    "pk": 2, 
+    "model": "forms.field", 
+    "fields": {
+        "field_type": 3, 
+        "_order": 1, 
+        "form": 3, 
+        "default": "", 
+        "required": true, 
+        "label": "Email", 
+        "visible": true, 
+        "help_text": "", 
+        "placeholder_text": "", 
+        "choices": ""
+    }
+},
+{
+    "pk": 3, 
+    "model": "forms.field", 
+    "fields": {
+        "field_type": 6, 
+        "_order": 2, 
+        "form": 3, 
+        "default": "", 
+        "required": true, 
+        "label": "Subject", 
+        "visible": true, 
+        "help_text": "", 
+        "placeholder_text": "", 
+        "choices": "Billing, Sales, Support"
+    }
+},
+{
+    "pk": 4, 
+    "model": "forms.field", 
+    "fields": {
+        "field_type": 2, 
+        "_order": 3, 
+        "form": 3, 
+        "default": "", 
+        "required": true, 
+        "label": "Message", 
+        "visible": true, 
+        "help_text": "", 
+        "placeholder_text": "", 
+        "choices": ""
+    }
+},
+{
+    "pk": 1, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-08-13T15:58:56.767Z", 
+        "_order": 8, 
+        "titles": "Blog", 
+        "description": "Blog", 
+        "parent": null, 
+        "title": "Blog", 
+        "short_url": null, 
+        "created": null, 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-08-13T15:58:56.763Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "1", 
+        "slug": "blog", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 2, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-02T11:49:28.935Z", 
+        "_order": 1, 
+        "titles": "Members", 
+        "description": "Members", 
+        "parent": null, 
+        "title": "Members", 
+        "short_url": null, 
+        "created": "2014-07-02T11:49:28.935Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-02T11:49:28.931Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "1", 
+        "slug": "members", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 3, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-02T11:49:55.716Z", 
+        "_order": 2, 
+        "titles": "Providers", 
+        "description": "Providers", 
+        "parent": null, 
+        "title": "Providers", 
+        "short_url": null, 
+        "created": "2014-07-02T11:49:55.716Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-02T11:49:55.714Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "1", 
+        "slug": "providers", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 4, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-08-13T16:00:51.063Z", 
+        "_order": 7, 
+        "titles": "Privacy", 
+        "description": "Privacy", 
+        "parent": null, 
+        "title": "Privacy", 
+        "short_url": null, 
+        "created": "2014-07-02T11:50:13.910Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-02T11:50:13Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "1", 
+        "slug": "privacy", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 5, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-02T11:50:41.271Z", 
+        "_order": 3, 
+        "titles": "Contact", 
+        "description": "Contact", 
+        "parent": null, 
+        "title": "Contact", 
+        "short_url": null, 
+        "created": "2014-07-02T11:50:41.271Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-02T11:50:41.269Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "3", 
+        "slug": "contact", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 6, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-02T11:51:03.408Z", 
+        "_order": 4, 
+        "titles": "About", 
+        "description": "About", 
+        "parent": null, 
+        "title": "About", 
+        "short_url": null, 
+        "created": "2014-07-02T11:51:03.408Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-02T11:51:03.406Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "3", 
+        "slug": "about", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 8, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-03T05:02:26.514Z", 
+        "_order": 5, 
+        "titles": "Jobs", 
+        "description": "Jobs", 
+        "parent": null, 
+        "title": "Jobs", 
+        "short_url": null, 
+        "created": "2014-07-03T04:44:42.481Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-03T04:44:42Z", 
+        "content_model": "jobspage", 
+        "in_menus": "3", 
+        "slug": "jobs", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 9, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-07-07T08:08:50.825Z", 
+        "_order": 0, 
+        "titles": "Home", 
+        "description": "", 
+        "parent": null, 
+        "title": "Home", 
+        "short_url": null, 
+        "created": "2014-07-06T00:44:07.196Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-06T00:44:07Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "", 
+        "slug": "/", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 10, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 1, 
+        "login_required": false, 
+        "updated": "2014-08-13T16:01:27.670Z", 
+        "_order": 6, 
+        "titles": "Press", 
+        "description": "Press", 
+        "parent": null, 
+        "title": "Press", 
+        "short_url": null, 
+        "created": "2014-07-19T02:58:55.731Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "Press", 
+        "expiry_date": null, 
+        "publish_date": "2014-07-19T02:58:55Z", 
+        "content_model": "presspage", 
+        "in_menus": "", 
+        "slug": "press", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 11, 
+    "model": "pages.page", 
+    "fields": {
+        "status": 2, 
+        "login_required": false, 
+        "updated": "2014-08-15T22:52:41.582Z", 
+        "_order": 9, 
+        "titles": "Terms & Conditions", 
+        "description": "\nKlio Health User Agreement &amp; Privacy Policy\n", 
+        "parent": null, 
+        "title": "Terms & Conditions", 
+        "short_url": null, 
+        "created": "2014-08-13T16:00:29.468Z", 
+        "site": 1, 
+        "in_sitemap": true, 
+        "keywords_string": "", 
+        "_meta_title": "", 
+        "expiry_date": null, 
+        "publish_date": "2014-08-13T16:00:29Z", 
+        "content_model": "richtextpage", 
+        "in_menus": "3", 
+        "slug": "terms-of-use", 
+        "gen_description": true
+    }
+},
+{
+    "pk": 6, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>About</p>"
+    }
+},
+{
+    "pk": 1, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>Blog</p>"
+    }
+},
+{
+    "pk": 5, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>Contact</p>"
+    }
+},
+{
+    "pk": 9, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p><img src=\"/static/media/uploads/homepage_photo.jpg\" height=\"604\" class=\"img_block\" width=\"1200\"></p>"
+    }
+},
+{
+    "pk": 2, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>Members</p>"
+    }
+},
+{
+    "pk": 4, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>Privacy</p>"
+    }
+},
+{
+    "pk": 3, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<p>Providers</p>"
+    }
+},
+{
+    "pk": 11, 
+    "model": "pages.richtextpage", 
+    "fields": {
+        "content": "<div id=\"terms-of-use\">\n<h1 class=\"c6\"><span class=\"c10\">Klio Health User Agreement &amp; Privacy Policy</span></h1>\n<p><span class=\"c10\"><br></span></p>\n<h2 class=\"c6\">Klio Health User Agreement</h2>\n<p class=\"c6\"><span>This User Agreement (\u201c</span><span class=\"c4\">Agreement</span><span>\u201d) is a binding legal contract between you (\u201c</span><span class=\"c4\">you</span><span>\u201d) and Ubiqi Health, Inc. d/b/a Klio Health (\u201c</span><span class=\"c4\">Klio Health</span><span>\u201d) and governs your access to and use of the Klio Health System software and any services, features, functionalities, or information made available by accessing the software (collectively, the \u201c</span><span class=\"c4\">Services</span><span>\u201d). You and Klio Health may be referred to in this Agreement individually as a \u201c</span><span class=\"c4\">Party</span><span>\u201d or jointly as the \u201c</span><span class=\"c4\">Parties</span><span>.\u201d</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<p class=\"c6\"><span>BY CREATING YOUR USER ACCOUNT AND CHECKING THE BOX TO CONFIRM THAT YOU HAVE READ AND UNDERSTOOD THE TERMS OF USE AND PRIVACY POLICY, YOU INDICATE YOUR ACCEPTANCE OF THIS AGREEMENT. IF YOU ARE ENTERING INTO THESE TERMS ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO BIND SUCH ENTITY TO THESE TERMS, IN WHICH CASE \u201cHEALTHCARE PROVIDER\u201d SHALL REFER TO SUCH ENTITY. IF YOU DO NOT HAVE SUCH AUTHORITY OR IF YOU DO NOT AGREE TO THIS AGREEMENT, YOU MAY NOT ACCESS, RECEIVE, OR USE THE SERVICES, AND YOU ARE INSTRUCTED TO LOG OFF IMMEDIATELY. NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, YOUR FIRST USE OF THE SERVICES SHALL IRREVOCABLY INDICATE YOUR AGREEMENT TO THESE TERMS.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<p class=\"c6\"><span>If you are using the Services on behalf of a company, medical practice or other legal entity, you are nevertheless individually bound to this Agreement even if your company has a separate agreement with Klio Health. The Services may be used by individual patients and by healthcare providers (including physicians, nurses, and therapists) (collectively, \u201c</span><span class=\"c4\">Users</span><span>\u201d). The terms of this Agreement apply to all Users except for those provisions that expressly state that they only apply to either patients or healthcare providers.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">1.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">UPDATES AND CHANGES TO THIS AGREEMENT</span></h4>\n<p class=\"c6\"><span>Klio Health expressly reserves the right to make any changes to this Agreement, or the Services, at any time, without prior notice to you. All such updates and amendments are effective immediately upon notice thereof, which Klio Health may give by any means, including by posting a revised version of this Agreement or other notice in the Services or by sending you a copy of the revised Agreement by email. \u00a0You should view this Agreement often to stay informed of changes that may affect you. Your continued use of the Services signifies your continuing consent to be bound by this Agreement.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">2.</span><span class=\"c1\">\u00a0 \u00a0 </span><span class=\"c5\">Additional Terms; Privacy Policy</span></h4>\n<p class=\"c6\"><span class=\"c8\">2.1</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Privacy Policy</span><span>. Information that you provide or that Klio Health collects about you in connection with your access to and use of the Services is subject to Klio Health\u2019s Privacy Policy, the terms of which are hereby incorporated into this Agreement by reference. We encourage you to read and become familiar with Klio Health\u2019s privacy practices, as described in Klio Health\u2019s Privacy Policy. You may access Klio Health\u2019s Privacy Policy at:</span><span><a href=\"https://www.google.com/url?q=https%3A%2F%2Fkliohealth.com%2Fprivacypolicy.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNF03gc7WsK5lfEm8_PQhfdklyv1mg\" class=\"c11\">\u00a0</a></span><span class=\"c4 c7\"><a href=\"#privacy-policy-title\" class=\"c11\">Privacy Policy</a></span></p>\n<p class=\"c6\"><span class=\"c8\">\u00a0</span></p>\n<p class=\"c6\"><span class=\"c8\">2.2</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Subscription Agreement</span><span>. \u00a0The following provision only applies to healthcare providers: if you are a healthcare provider who is using the Services in connection with a healthcare organization that has an agreement with Klio Health governing its access and use of the Services (each such healthcare organization, a \u201c</span><span class=\"c4\">Subscriber</span><span>\u201d), you are also subject to the agreement between the Subscriber and Klio Health ( \u201c</span><span class=\"c4\">Subscription Agreement</span><span>\u201d). In the event of a conflict between this Agreement and the applicable Subscription Agreement, the Subscription Agreement shall control. The applicable Subscription Agreement is incorporated into this Agreement by reference. You agree to comply with all of the terms of the Subscription Agreement that are applicable to an Authorized User (as such term is defined in the Subscription Agreement), including where the Subscriber is responsible for causing the Authorized User\u2019s compliance with such terms</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">3.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">LICENSE TO GRANT AND RESTRICTIONS</span></h4>\n<p class=\"c6\"><span class=\"c8\">3.1</span><span class=\"c2\">\u00a0</span><span class=\"c8\">License To Access the Services</span><span>. Subject to all terms and conditions of this Agreement, Klio Health grants you, during the Term, a limited, royalty-free, nonexclusive, royalty-free, non-transferable, non-sublicenseable right to access the Services solely for your individual use.</span></p>\n<p class=\"c6\"><span class=\"c8\"><br>3.2</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Use Restrictions</span><span>. You may not use the Services to act as a service bureau. In addition, you shall not itself or through any third party: (i) copy or reproduce the Services; (ii) license, sublicense, sell, resell, market, lease, loan, rent, transfer, assign, distribute, disclose, or make accessible to any third party or otherwise commercially exploit the Services or grant any right to access or use the Services to any third party; (iii) modify or improve the Services or make derivative works based upon the Services; (iv) decompile, disassemble, or reverse engineer any object code that is part of the Services or attempt to reverse engineer, reconstruct, identify, or discover any source code of the Services, the structure, sequence, or organization of such source code or any algorithms, methods, or models contained therein; (v) remove any product identification, trademark, copyright, patent, or other notices or markings contained in, displayed by, or provided with the Services; or (vi) access or use the Services in order to build any Services, product, or service that is competitive or similar to the Services or any portion thereof.</span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">3.3</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Title</span><span>. The Services contains material that is protected by United States intellectual property laws, including copyright and trade secret law, and by international treaty provisions. All rights not expressly granted to you under this Agreement are expressly reserved by Klio Health and its licensors. All copyrights, patents, trade secrets, trademarks, service marks, trade names, moral rights and other intellectual property and proprietary rights in the Services and Content (as defined below) shall remain the sole and exclusive property of Klio Health or its licensors, as applicable, and this Agreement grants you no title or rights of ownership in the Services, Content or any subsets or components thereof.</span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">3.4</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Use of Submissions</span><span>. By submitting any information or material to the Services or to Klio Health, including your health information, (each, a \u201c</span><span class=\"c4\">Submission</span><span>\u201d), whether or not through access to and use of the Services, you thereby expressly grant, or warrant that the owner of such material has expressly granted, a non-exclusive, royalty-free, and fully paid license to use, copy, reproduce and create derivative works of the Submission for the purposes of Klio Health providing the Services. You are responsible for obtaining all rights, permissions and authorizations to provide the Submissions to Klio Health for use as contemplated under this Agreement.</span></p>\n<p class=\"c3 c15\"></p>\n<p class=\"c6 c15\"><span class=\"c8\">3.5</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Use and Sharing of Health Information</span><span>. \u00a0The Services may permit you to upload and store health information about yourself (collectively, \u201c</span><span class=\"c4\">Your Health Information</span><span>\u201d) and share Your Health Information with healthcare providers. You are not permitted to upload, store or share any third party\u2019s health information using the Services. You are solely responsible for determining with which healthcare providers you will share Your Health Information. Before you share Your Health Information with a healthcare provider through the Services, we recommend that you carefully review any authorization forms and other policies provided by the healthcare provider explaining how the healthcare provider will access and use Your Health Information (\u201c</span><span class=\"c4\">Healthcare Provider Authorizations\u201d</span><span>). You understand and agree that (a) by indicating through the Services that you want to share Your Health Information with a healthcare provider, Klio Health will make Your Healthcare Information available to the healthcare provider you have chosen, and (b) by sharing Your Health Information with healthcare providers through the Services, such healthcare providers may use, save, reproduce, distribute, display and transmit Your Health Information in the ways set forth in the applicable Healthcare Provider Authorization. Except for the license granted in Sections 3.4 (Use of Submissions) and 3.5 (Use and Sharing of Health Information), nothing contained in this Agreement will be construed as granting Klio Health any right, title or interest in Your Health Information.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">4.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">ELIGIBILITY AND REGISTRATION</span></h4>\n<p class=\"c6\"><span class=\"c8\">4.1</span><span class=\"c2\">\u00a0 </span><span class=\"c8\">Eligibility</span><span>. \u00a0To be eligible to register for and use the Services, you must meet the following criteria and represent and warrant that you: (i) are eighteen (18) years of age or older; (ii) are not a competitor of Klio Health; (iii) have full power and authority to enter into this Agreement and doing so will not violate any other agreement to which you are a party; and (iv) will not violate any rights of Klio Health, including intellectual property rights such as copyright or trademark rights.</span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">4.2</span><span class=\"c2\">\u00a0</span><span>\u00a0</span><span class=\"c8\">Setting Up An Account</span><span>. To access and use certain features and functions of the Services, you must have an account (a \u201c</span><span class=\"c4\">User Account</span><span>\u201d). You may only register for one User Account. In consideration of your access to, and use of, the Services, you agree to (a) provide accurate, current and complete information about you as may be prompted by any registration forms in the Services (\u201c</span><span class=\"c4\">Registration Data</span><span>\u201d); (b) maintain the security of your user identification and password (collectively, your \u201c</span><span class=\"c4\">Login Information</span><span>\u201d); (c) maintain and promptly update the Registration Data, and any other information you provide to Klio Health; (d) promptly advise Klio Health whenever there is a change to your contact information or any other information in your User Account; (e) receive communications from Klio Health electronically; and (f) be fully responsible for all use of your account and for any actions that take place using your account and your Login Information. You shall immediately notify Klio Health if you have knowledge that the security or integrity of your username or password is compromised. </span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">4.3</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Accuracy of User Information</span><span>. You represent and agree that all information that you provide to Klio Health in connection with your access to and use of the Services is, and shall be, true, accurate and complete to the best of your knowledge, ability and belief. </span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">5.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">YOUR OBLIGATIONS</span></h4>\n<p class=\"c6\"><span class=\"c8\">5.1</span><span class=\"c2\">\u00a0 </span><span class=\"c8\">Connectivity</span><span>. \u00a0You are solely responsible for all telecommunication or Internet connections required to access the Services, as well as all hardware and software at your site.</span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">5.2</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Protecting Your Login Information</span><span>. \u00a0You agree to keep your Login Information and other account details confidential, and you further agree not to share them with anyone else. You shall make every effort to ensure the privacy of data accessible through the Services by viewing data only under secure conditions. For example, your should sign off or shut down your computer before leaving it unattended or when leaving at the end of the work day. Unauthorized individuals attempting to access restricted areas of the Services may be subject to prosecution and/or litigation. You must immediately notify Klio Health if you learn of or suspect any loss, theft, or unauthorized use of your Login Information, or any breach of the security of the Services or of this Agreement, of which you become aware. Klio Health cannot and will not be liable for any loss or damage arising from any unauthorized access or use of your Login Information.</span></p>\n<p class=\"c3\"></p>\n<p class=\"c6\"><span class=\"c8\">5.3</span><span class=\"c2\">\u00a0</span><span class=\"c8\">Feedback</span><span>. You may provide suggestions, comments or other feedback (collectively, \u201c</span><span class=\"c4\">Feedback</span><span>\u201d) to Klio Health with respect to its products and services, including the Services and Content. Feedback is voluntary. Klio Health may use Feedback for any purpose without obligation of any kind. To the extent a license is required under your intellectual property rights to make use of the Feedback, you grant Klio Health an irrevocable, non-exclusive, perpetual, fully-paid-up, royalty-free license to use the Feedback in connection with Klio Health\u2019s business, including the enhancement of its products and services.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">6.</span><span class=\"c1\">\u00a0 \u00a0 </span><span class=\"c5\">USER CONDUCT</span></h4>\n<p class=\"c6\"><span>In connection with your access to the Services, you are responsible for compliance with all applicable laws, regulations and policies of all relevant jurisdictions. Recognizing the global nature of the Internet, you agree to comply with all applicable local rules regarding online conduct and acceptable content. Specifically, among other things, you agree that by or while accessing or using the Services you will not:</span></p>\n<ul class=\"c13 lst-kix_vhsq0ndlqzwh-0 start\">\n<li class=\"c6 c12\"><span>violate this Agreement, including (in the case of healthcare providers) any applicable Subscription Agreement;</span></li>\n<li class=\"c6 c12\"><span>use the Services for any purpose that is unlawful;</span></li>\n<li class=\"c6 c12\"><span>restrict or inhibit any other user from using or enjoying the Services;</span></li>\n<li class=\"c6 c12\"><span>represent yourself as another or as a fictitious individual;</span></li>\n<li class=\"c6 c12\"><span>disrupt or interfere with the Services or its operation or availability, or alter or tamper with Content on the Services;</span></li>\n<li class=\"c6 c12\"><span>take any action that imposes or may impose, in Klio Health\u2019s sole and exclusive discretion, an unreasonable or disproportionately large burden on Klio Health\u2019s systems;</span></li>\n<li class=\"c6 c12\"><span>bypass any measures Klio Health may use to present or restrict access to the Services (or components thereof), or otherwise attempt (by any means) to gain access to data or information that you are not entitled to access;</span></li>\n<li class=\"c6 c12\"><span>import, input, or transmit any data that cannot be exported without prior written government authorization;</span></li>\n<li class=\"c6 c12\"><span>import, input, or transmit any data in violation of a license agreement, contract, or other third party rights</span></li>\n<li class=\"c6 c12\"><span>import, input, or transmit any information which contains a virus, Trojan horse, worm, or other disabling device or harmful component.</span></li>\n</ul>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">7.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">WARRANTY AND DISCLAIMERS</span></h4>\n<p class=\"c6 c16\"><span class=\"c8\">7.1</span><span class=\"c2\">\u00a0 </span><span class=\"c8\">Limited Warranty</span><span>. \u00a0Each Party represents and warrants \u00a0that it has the full power, capacity and authority to enter into and perform this Agreement and to make the grant of rights contained herein.</span></p>\n<p class=\"c3 c16\"></p>\n<p class=\"c6 c16\"><span class=\"c8\">7.2</span><span class=\"c2\">\u00a0</span><span class=\"c8\">WARRANTY DISCLAIMER</span><span>. EXCEPT AS EXPRESSLY SET FORTH IN SECTION 7.1 (LIMITED WARRANTY), THE SERVICES AND CONTENT ARE SUPPLIED \u201cAS IS,\u201d \u201cWHERE IS,\u201d \u201cWITH ALL FAULTS,\u201d AND WITHOUT WARRANTY OF ANY KIND. EXCEPT AS EXPRESSLY SET FORTH IN SECTION 7.1 (LIMITED WARRANTY), KLIO HEALTH EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUALITY OF INFORMATION, QUIET ENJOYMENT, TITLE, AND NON-INFRINGEMENT. KLIO HEALTH DOES NOT WARRANT THAT THE SERVICES OR CONTENT WILL MEET YOUR REQUIREMENTS OR THAT THE SERVICES OR CONTENT WILL BE ERROR-FREE, OR THAT DEFECTS IN THE SERVICES OR CONTENT WILL BE CORRECTED. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY KLIO HEALTH OR ITS AUTHORIZED REPRESENTATIVES SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF KLIO HEALTH\u2019S OBLIGATIONS UNDER THIS AGREEMENT.</span></p>\n<p class=\"c3 c16\"></p>\n<p class=\"c6 c16\"><span class=\"c8\">7.3</span><span class=\"c2\">\u00a0</span><span class=\"c8\">NOT A SUBSTITUTE FOR MEDICAL ADVICE</span><span>. \u00a0The contents of the Services, including the text, graphics, images, information obtained from Klio Health's licensors, users, employees and other material contained in the Services, (collectively, \"</span><span class=\"c4\">Content</span><span>\") is for informational purposes only and is not a substitute for the professional judgment of a health care professional in diagnosing and treating patients. KLIO HEALTH ASSUMES NO LIABILITY, WARRANTY, OR RESPONSIBILITY WHATSOEVER WITH RESPECT TO THE USE OF THE SERVICES, OR ANY ANALYSIS FROM SUCH USE, BY YOU OR BY ANY HEALTH CARE PROVIDER IN CONNECTION WITH DIAGNOSIS OR TREATMENT OF ANY PATIENT WITH RESPECT TO HIS OR HER MEDICAL CONDITION. \u00a0IN PROVIDING THE SERVICES AND THE ANALYSIS CONTAINED THEREIN, NO RECOMMENDATIONS ARE GIVEN OR IMPLIED BY KLIO HEALTH AS TO DIAGNOSIS OR TREATMENT OF A PATIENT WITH RESPECT TO HIS OR HER MEDICAL CONDITION. \u00a0THE SERVICES DO NOT PROVIDE A PLAN FOR THE TREATMENT OF A PATIENT AND DO NOT CONSTITUTE MEDICAL ADVICE. \u00a0IF YOU ARE A HEALTHCARE PROVIDER, Klio Health reminds you that the Services is not meant to serve as a substitute for your own professional medical judgment, AND YOU should always exercise your professional judgment in evaluating your patients, and should carefully consider any treatment plan.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">8.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">INDEMNIFICATION</span></h4>\n<p class=\"c6\"><span>At your expense as provided herein, you agree to defend, indemnify, and hold harmless Klio Health and its directors, officers, agents, employees, members, subsidiaries and successors in interest from and against any claim, action, proceeding, liability, loss, damage, cost, or expense, including, without limitation, attorneys\u2019 fees, experts\u2019 fees and court costs, arising out of your breach of this Agreement and/or your use of the Services.</span><span class=\"c8\">\u00a0</span><span>Klio Health agrees to give you prompt written notice of an indemnified claim. \u00a0You shall not enter into any stipulated judgment or settlement that purports to bind Klio Health without Klio Health\u2019s express written authorizations, which shall not be unreasonably withheld or delayed. </span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">9.</span><span class=\"c1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span><span class=\"c5\">LIMITATION OF LIABILITY</span></h4>\n<p class=\"c6\"><span>IN NO EVENT SHALL KLIO HEALTH BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, INDIRECT, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES FOR LOSS OF BUSINESS, LOSS OF PROFITS, BUSINESS INTERRUPTION, OR LOSS OF DATA) ARISING OUT OF OR CONNECTED IN ANY WAY WITH THIS AGREEMENT, THE SERVICES, OR ANY SERVICES RENDERED HEREUNDER, EVEN IF KLIO HEALTH HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE TOTAL LIABILITY OF KLIO HEALTH FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE) SHALL NOT EXCEED $100.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<h4 class=\"c6\"><span class=\"c5\">10.</span><span class=\"c1\">\u00a0</span><span class=\"c5\">TERM AND TERMINATION</span></h4>\n<p class=\"c0\"><span class=\"c8\">10.1</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Term</span><span>. \u00a0This Agreement shall be effective as of the date this Agreement was accepted pursuant to the preamble, and shall remain in effect and continue until terminated as set forth herein (the \u201c</span><span class=\"c4\">Term</span><span>\u201d).</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">10.2</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Termination.</span><span>\u00a0You may terminate this Agreement by ceasing all use of the Services, deleting all software you have received in connection with the Services (such as mobile applications) and deleting your User Account. Klio Health may terminate this Agreement for its own convenience and without cause, for any reason and at any time.</span></p>\n<p class=\"c0\"><span class=\"c8\">10.3</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Suspension</span><span>. Without limiting Klio Health\u2019s termination rights, Klio Health reserves the right to terminate this Agreement, or to refuse, restrict, or discontinue your access to the Services (or any portions, components, modules, or features of the Services) for any reason, or for no reason whatsoever, at any time, without notice or liability.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">10.4</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Effect of Termination</span><span>. Upon the termination or expiration of this Agreement, (i) the license and all other rights granted to you hereunder shall cease, and (ii) you shall immediately cease access to and use of the Services.</span></p>\n<p class=\"c6\"><span>\u00a0</span></p>\n<p class=\"c6\"><span class=\"c5\">11.</span><span class=\"c1\">\u00a0</span><span class=\"c5\">GENERAL</span></p>\n<p class=\"c0\"><span class=\"c8\">11.1</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Compliance With Laws</span><span>. Each Party shall, at its own expense, comply with all applicable laws, regulations and other legal requirements.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.2</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Waiver, Amendment Or Modification</span><span>. The waiver, amendment or modification of any provision of this Agreement or any right, power, or remedy hereunder shall not be effective unless made in writing and signed by the Party against whom enforcement of such waiver, amendment, or modification is sought. No failure or delay by either Party in exercising any right, power, or remedy with respect to any of its rights hereunder shall operate as a waiver thereof.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.3</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Notice</span><span>. All notices, demands, or consents given under this Agreement will be in writing and will be deemed given when delivered personally, or three (3) calendar days after deposit in the mail (certified or registered mail), or one (1) calendar day after being sent by overnight courier.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.4</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Entire Agreement</span><span>. This Agreement, together with the exhibits attached hereto, constitutes the entire agreement between the Parties in connection with the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations and discussions, whether oral or written, of the Parties, and there are no warranties, representations, or agreements between the Parties in connection with the subject matter hereof except as specifically set forth or referred to herein. In the event of any conflict between the body of this Agreement and any Exhibits, the terms and provisions of this Agreement shall control.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.5</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Assignment</span><span>. Neither Party shall assign this Agreement without the written consent of the other Party, which consent shall not be unreasonably withheld. Notwithstanding the foregoing, either Party may assign this Agreement, without the other Party\u2019s consent, to any affiliate or subsidiary, or in the event of a merger, acquisition, or sale of all or substantially all of its assets.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.6</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Governing Law; Forum; Severability</span><span>. The validity, construction and performance of this Agreement and the legal relations among the Parties to this Agreement shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts, excluding that body of law applicable to choice of law. The Parties hereby agree to the exclusive jurisdiction of the federal and state courts located in Boston, Massachusetts for all disputes arising under or related to this Agreement. \u00a0If any provision of this Agreement or the application of any such provision shall be held by a tribunal of competent jurisdiction to be contrary to law, the remaining provisions of this Agreement shall continue in full force and effect.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.7</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c4\">INAPPLICABILITY OF UCITA</span><span>. \u00a0THE PARTIES AGREE THAT NO PROVISION OF THE UNIFORM COMPUTER INFORMATION TRANSACTIONS ACT (UCITA) IS INTENDED TO APPLY TO THE INTERPRETATIONS OF THIS AGREEMENT, WHETHER OR NOT UCITA IS ENACTED IN THE STATE WHOSE LAW GOVERNS THIS AGREEMENT AS SET FORTH IN SECTION 11.5 (GOVERNING LAW; SEVERABILITY) OF THIS AGREEMENT.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.8</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Relationship Of The Parties</span><span>. You are an independent contractor under this Agreement, and nothing herein shall be construed to create a partnership, joint venture, or agency relationship between the Parties hereto. You shall have no authority to enter into agreements of any kind on behalf of Klio Health and shall have no power or authority to bind or obligate Klio Health in any manner to any other third party.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.9</span><span class=\"c2\">\u00a0 \u00a0</span><span class=\"c8\">Survival</span><span>. The following Sections shall survive expiration or termination of this Agreement: 3.2 (Title), 7.1 (Warranty Disclaimer), 7.2 (Not A Substitute For Medical Advice), 8 (Indemnification), 9 (Limitation of Liability), 10.3 (Effect of Termination), 11 (General), and any other provision that the Parties reasonably contemplate as remaining in effect after expiration or termination of this Agreement.</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.10 \u00a0 Construction</span><span>. The section headings in this Agreement are for convenience of reference only, will not be deemed to a part of this Agreement, and will not be referred to in connection with the construction or interpretation of this Agreement. Unless otherwise expressly stated, the words \u201cherein,\u201d \u201chereof,\u201d and \u201chereunder\u201d and other words of similar import refer to sections of this Agreement as a whole and not to any particular section, subsection or other subpart of this Agreement. The words \u201cinclude\u201d and \u201cincluding\u201d shall not be construed as terms of limitation and shall, in all instances, be interpreted as meaning \u201cincluding, but not limited to.\u201d</span></p>\n<p class=\"c0 c9\"></p>\n<p class=\"c0\"><span class=\"c8\">11.11 \u00a0 Force Majeure</span><span>. Neither Party will be liable for any failure or delay in performance under this Agreement which is due to any event beyond the reasonable control of such Party, including without limitation, fire, explosion, unavailability of utilities or raw materials, unavailability of components, labor difficulties, war, riot, act of God, export control regulation, laws, judgments, or government instructions.</span></p>\n<p class=\"c0\"><span>\u00a0</span></p>\n<p class=\"c0\"><span><br></span></p>\n<h2 dir=\"ltr\" id=\"privacy-policy-title\">KLIO HEALTH ONLINE PRIVACY POLICY</h2>\n<p dir=\"ltr\">Last modified on August 12th, 2014.</p>\n<h4 dir=\"ltr\">1. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0INTRODUCTION</h4>\n<p dir=\"ltr\">Purpose. \u00a0The purpose of this Privacy Policy is to describe how Ubiqi Health Inc. d/b/a Klio Health (\u201cKlio Health\u201d) collects, uses and shares information about you through our U.S. online interfaces (e.g., websites and mobile applications) owned and controlled by us, including www.kliohealth.com (collectively referred to herein as the \u201cServices\u201d). \u00a0Please read this notice carefully to understand what we do. If you do not understand any aspects of our Privacy Policy, please feel free to contact us at hello@kliohealth.com or as described at the end of this Privacy Policy.</p>\n<p dir=\"ltr\">Our Privacy Policy explains:</p>\n<p dir=\"ltr\"><a href=\"#information-we-collect\">Information we collect and why we collect it</a></p>\n<p dir=\"ltr\"><a href=\"#how-we-use-and-share\">How we use and share your information</a></p>\n<p dir=\"ltr\"><a href=\"#access-to-your-information\">Access to your information and choices</a></p>\n<p dir=\"ltr\"><a href=\"#security-of-your-information\">Security of your information</a></p>\n<p dir=\"ltr\"><a href=\"#changes-to-our-privacy\">Changes to our privacy policy</a></p>\n<p dir=\"ltr\"><a href=\"#questions-and-how\">Questions and how to contact us</a></p>\n<p dir=\"ltr\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</p>\n<p dir=\"ltr\">Scope; Third Party Sites. \u00a0This Privacy Policy applies only to information we collect at and through the Services. \u00a0Some of our affiliated sites and services may be governed by their own separate privacy policies, so please make sure you review the applicable privacy terms when visiting other sites or using other services offered by Klio Health. \u00a0Our Services may contain links to third party sites that are not owned or controlled by Klio Health. \u00a0Please be aware that we are not responsible for the privacy practices of such other sites. \u00a0We encourage you to be aware when you leave the Services to access other sites and services, and to read the privacy statements of each and every website that collects personal information.</p>\n<p dir=\"ltr\">Terms of Use. \u00a0Please note that your use of our Services is also subject to our individual user agreement.</p>\n<p dir=\"ltr\"></p>\n<h4 dir=\"ltr\" id=\"information-we-collect\">2. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0INFORMATION WE COLLECT AND WHY WE COLLECT IT</h4>\n<p dir=\"ltr\">Information You Provide To Us. \u00a0You can provide information to us through the Services through various means, including</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you register to use the Services and/or create an online account</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you purchase products from us</p>\n</li>\n</ul>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you submit and/or update information via your account information page</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you sign up to receive newsletters</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you download and/or use our mobile applications</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you fill out feedback forms or otherwise submit feedback to us</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you use online contact-us forms or request customer service</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you request information, including through online request forms</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you use your smart phone or mobile device to access and/or use the Services</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you provide user generated content such as user comments, blog posts, and other social media communications</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">When you participate in surveys, promotions, contests, and/or sweepstakes</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The information we collect may include personal information, such as</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Name</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Billing address (in connection with purchases) \u00a0</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Shipping address (in connection with purchases)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Email address</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Business telephone number (in connection with purchases)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Mobile telephone number</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Credit card and/or debit card numbers (solely for payment purposes)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Gender</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Year of birth</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Racial and/or ethnic origin</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Medical history and health information</p>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"ltr\">Please note that we do not collect all of this information in every circumstance, and you may only be asked to provide some of this information depending on how you use the Services.</p>\n<p dir=\"ltr\">No Information From Children Under Age 13. The Services are only available for users who are at least 18 years old \u2013 if you are not at least 18 years old, please do not attempt to register to use the Services or provide any personal information about yourself to us. \u00a0\u00a0Without limiting the forgoing, if we learn that we have collected personal information from a child under the age of 13, we will promptly delete that information. \u00a0If you believe we might have any information from a child under the age of 13, please email us at hello@kliohealth.com or call us at (617) 794-2089.</p>\n<p dir=\"ltr\">Information We Collect Automatically. \u00a0We collect certain information automatically as you use the Services, such as</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">IP address</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Browser type</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Computer or device type</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Unique device identifiers</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Operating system version</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The website from where you navigated to our Site</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Time and date of using our Site</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The name of your Internet service provider (ISP)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">The pages on our Site that you view</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Location / Geolocation information (only if you consent to our collection of your geolocation information)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Cookies (including persistent cookies and session cookies)</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Other general information about your use of the Services collected by website and mobile analytics services (such as Google Analytics).</p>\n</li>\n</ul>\n<p dir=\"ltr\">Cookies. \u00a0When you visit websites connected with the Services or use the online and mobile portions of our Services, we send one or more \u201ccookies\u201d to your computer or other device. A cookie is a small file containing a string of characters that is sent to your computer when you visit a website. When you visit the website again, the cookie allows that site to recognize your browser. Cookies may store unique identifiers, user preferences and other information. You can reset your browser to refuse all cookies or to indicate when a cookie is being sent. However, some online and mobile features or services may not function properly without cookies. We use cookies to improve the quality of our Service, including for storing user preferences, tracking user trends and providing relevant advertising to you. \u00a0\u00a0</p>\n<p dir=\"ltr\">Pixel Tags. \u00a0We may use \u201cpixel tags,\u201d also known as \u201cweb beacons,\u201d which are small graphic files that allow us to monitor the use of our websites. \u00a0A pixel tag is a type of technology placed on a website or within the body of an email for the purpose of tracking activity on websites, or when emails are opened or accessed, and is often used in combination with cookies. A pixel tag can collect information such as the IP (Internet Protocol) address of the computer that downloaded the page on which the tag appears; the URL of the page on which the pixel tag appears; the time the page containing the pixel tag was viewed; the type of browser that fetched the pixel tag; and the identification number of any cookie on the computer previously placed by that server.</p>\n<p dir=\"ltr\"></p>\n<h4 dir=\"ltr\" id=\"how-we-use-and-share\">3. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0HOW WE USE AND SHARE YOUR INFORMATION</h4>\n<p dir=\"ltr\">To Provide Products, Services, and Information. \u00a0As described above, we collect information from you so that we can provide products and services that you purchase using the Services, and information that you request from us. \u00a0We use your personal information to contact you about your orders, process credit card / debit card transactions, and ship products to you. \u00a0We may send you information about our products and services, and new offerings. We may provide information to third party service providers that help us process orders, and fulfill and deliver products and services that you purchase from us. We may collect and use your information in conjunction with administering surveys, promotions, contests and sweepstakes (including to inform you of their occurrence and to notify you if you have been selected as a winner). We will not, however, share your information with third parties for their direct marketing purposes, unless you specifically consent to such a disclosure.</p>\n<p dir=\"ltr\">We may use third parties to help host the online and mobile portions of the Services, send out email updates about the Services, provide marketing and advertising services for us, remove repetitive information from our user lists, and process payments. These service providers will have access to your personal information in order to provide these services, but when this occurs we implement reasonable contractual and technical protections to limit their use of that information to helping us provide the service. We use demographic information to better understand our customers, and improve our products and services.</p>\n<p dir=\"ltr\">Your Consent. \u00a0In addition to the sharing described elsewhere in this Privacy Policy, we will share personal information with companies, organizations or individuals outside of Klio Health when we have your consent to do so. We require opt-in consent for the sharing of any sensitive personal information. Sensitive personal information is a particular category of personal information relating to confidential medical facts, racial or ethnic origins, political or religious beliefs or sexuality.</p>\n<p dir=\"ltr\">Legal Requests or Requirements and to Prevent Harm. \u00a0We will share personal information with third party companies, organizations or individuals outside of Klio Health if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to:</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Meet any applicable law, regulation, subpoena, legal process or enforceable governmental request.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Enforce applicable Individual User Agreements, including investigation of potential violations.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Detect, prevent, or otherwise address fraud, security or technical issues.</p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">Protect against harm to the rights, property or safety of Klio Health, our users, customers or the public as required or permitted by law.</p>\n</li>\n</ul>\n<p dir=\"ltr\">Transfer in the Event of Sale or Change of Control. \u00a0If the ownership of all or substantially all of our business changes or we otherwise transfer assets relating to our business or the Services to a third party, such as by merger, acquisition, bankruptcy proceeding or otherwise, we may transfer or sell your personal information to the new owner. In such a case, unless permitted otherwise by applicable law, your information would remain subject to the promises made in the applicable privacy policy unless you agree differently.</p>\n<p class=\"c0\"><span><br></span></p>\n<h4 dir=\"ltr\">4. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0COLLECTION AND SHARING OF YOUR HEALTH INFORMATION</h4>\n<p dir=\"ltr\">The Services may permit you to upload and store health information about yourself (collectively, \u201cYour Health Information\u201d) and share Your Health Information with the healthcare providers of your choice. If you upload and store Your Health Information in the Services, we will only use Your Health Information to provide the Services to you, and we will only disclose Your Health Information to those healthcare providers you have chosen to receive Your Health Information. We will not further disclose Your Health Information to any other third parties. Klio Health will not use or disclose Your Health Information for marketing purposes unless you sign an authorization for such use or disclosure.</p>\n<h4 dir=\"ltr\" id=\"access-to-your-information\">5. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0ACCESS TO YOUR INFORMATION AND CHOICES</h4>\n<p dir=\"ltr\">You can access and update certain information we have relating to your online account by signing into your account and going to the \u201cAccount\u201d section of the Services. \u00a0If you have questions about personal information we have about you or need to update your information, you can email us at hello@kliohealth.com or call us at (617)-794-2089. \u00a0You can opt-out of receiving marketing and promotional e-mails from Klio Health in the following ways: (a) by using the \u201cAccount\u201d page, (b) by using the opt-out or unsubscribe feature contained in the e-mails, or (c) by contacting us directly.</p>\n<p dir=\"ltr\">You can close your online account in the following ways: (a) by using the \u00a0\u201cAccount\u201d page, or (b) by emailing us at hello@kliohealth.com or calling us at (617)-794-2089. \u00a0If you close your account, we will no longer use your online account information or share it with third parties. \u00a0We may, however, retain a copy of the information for archival purposes, and to avoid identity theft or fraud.</p>\n<p class=\"c0\"><span><br></span></p>\n<h4 dir=\"ltr\" id=\"security-of-your-information\">6. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SECURITY OF YOUR INFORMATION</h4>\n<p dir=\"ltr\">In order to help secure your personal information, access to your data through our Services is password-protected, and sensitive data (such as health information) is protected by encryption when it is exchanged between your web browser and our Services. \u00a0To protect any data you store on our servers, we also regularly audit our system for possible vulnerabilities and attacks, and we use a tier-one secured-access data center. \u00a0However, since the Internet is not a 100% secure environment, we cannot guarantee, ensure, or warrant the security of any information you transmit to us. \u00a0There is no guarantee that information may not be accessed, disclosed, altered, or destroyed by breach of any of our physical, technical, or managerial safeguards. \u00a0It is your responsibility to protect the security of your login information. \u00a0Please note that e-mails and other communications you send to us through our Services are not encrypted, and we strongly advise you not to communicate any confidential information through these means.</p>\n<p class=\"c0\"><span><br></span></p>\n<h4 dir=\"ltr\" id=\"changes-to-our-privacy\">7. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0CHANGES TO OUR PRIVACY POLICY</h4>\n<p dir=\"ltr\">Our Privacy Policy may change from time to time. We will not reduce your rights under this Privacy Policy without your consent in accordance with applicable law. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes). We will also keep prior versions of this Privacy Policy in an archive for your review.</p>\n<h4 dir=\"ltr\">8. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0COMMUNICATION</h4>\n<p dir=\"ltr\">You authorize the healthcare providers with whom you have chosen to share Your Health Information (\u201cYour Healthcare Providers\u201d), Klio Health, and its contractors and affiliates to communicate with you by unencrypted e-mail using your e-mail address provided by you when you registered for your account on the Services (any as updated by you through your continued use of the Services). You acknowledge that: (a) e-mail is not necessarily secure media for sending or receiving Your Health Information and could be read by a third party; (b) if you send or receive e-mail through your employer\u2019s e-mail system, the employer may have the right to review it; (c) although Your Healthcare Providers, Klio Health, and its contractors and affiliates will make reasonable efforts to keep e-mail communications confidential and secure, it cannot assure or guarantee the confidentiality of e-mail communications; (d) at the discretion of the participating practice and Your Healthcare Provider, electronic communications between you and Klio Health may be made a part of your permanent medical record.</p>\n<p class=\"c0\"><span><br></span></p>\n<h4 dir=\"ltr\" id=\"questions-and-how\">9. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0QUESTIONS AND HOW CONTACT US</h4>\n<p dir=\"ltr\">If you have any questions, concerns, complaints or suggestions regarding our Privacy Policy or otherwise need to contact us, please email us at hello@kliohealth.com or call us at (617)-794-2089. \u00a0You may also contact us by mail at the following address:</p>\n<p dir=\"ltr\">Klio Health</p>\n<p dir=\"ltr\">21 Drydock Avenue, 6th Floor</p>\n<p dir=\"ltr\">Boston, MA 02210</p>\n<p class=\"c0\"><span><br></span></p>\n</div>"
+    }
+},
+{
+    "pk": 8, 
+    "model": "galleries.gallery", 
+    "fields": {
+        "content": "<p>A demo gallery of cities from around the world.</p>", 
+        "zip_import": ""
+    }
+},
+{
+    "pk": 1, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 0, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Amsterdam, Holland.jpg", 
+        "description": "Amsterdam  Holland"
+    }
+},
+{
+    "pk": 2, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 1, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Asturias, Brazil.jpg", 
+        "description": "Asturias  Brazil"
+    }
+},
+{
+    "pk": 3, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 2, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Athens, Greece.jpg", 
+        "description": "Athens  Greece"
+    }
+},
+{
+    "pk": 4, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 3, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Austin, USA.jpg", 
+        "description": "Austin  USA"
+    }
+},
+{
+    "pk": 5, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 4, 
+        "gallery": 8, 
+        "file": "uploads/gallery/A\u0301vila, Spain.jpg", 
+        "description": "A\u0301vila  Spain"
+    }
+},
+{
+    "pk": 6, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 5, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Bangkok, Thailand.jpg", 
+        "description": "Bangkok  Thailand"
+    }
+},
+{
+    "pk": 7, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 6, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Berlin, Germany.jpg", 
+        "description": "Berlin  Germany"
+    }
+},
+{
+    "pk": 8, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 7, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Boston, USA.jpg", 
+        "description": "Boston  USA"
+    }
+},
+{
+    "pk": 9, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 8, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Brisbane, Australia.jpg", 
+        "description": "Brisbane  Australia"
+    }
+},
+{
+    "pk": 10, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 9, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Bruxelles, Belgium.jpg", 
+        "description": "Bruxelles  Belgium"
+    }
+},
+{
+    "pk": 11, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 10, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Buenos Aires, Argentina.jpg", 
+        "description": "Buenos Aires  Argentina"
+    }
+},
+{
+    "pk": 12, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 11, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Cairo, Egypt.jpg", 
+        "description": "Cairo  Egypt"
+    }
+},
+{
+    "pk": 13, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 12, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Chicage, USA.jpg", 
+        "description": "Chicage  USA"
+    }
+},
+{
+    "pk": 14, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 13, 
+        "gallery": 8, 
+        "file": "uploads/gallery/City of Singapore, Singapore.jpg", 
+        "description": "City Of Singapore  Singapore"
+    }
+},
+{
+    "pk": 15, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 14, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Dallas, USA.jpg", 
+        "description": "Dallas  USA"
+    }
+},
+{
+    "pk": 16, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 15, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Denver, USA.jpg", 
+        "description": "Denver  USA"
+    }
+},
+{
+    "pk": 17, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 16, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Dublin, Ireland.jpg", 
+        "description": "Dublin  Ireland"
+    }
+},
+{
+    "pk": 18, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 17, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Du\u0308sseldorf, Germany.jpg", 
+        "description": "Du\u0308sseldorf  Germany"
+    }
+},
+{
+    "pk": 19, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 18, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Frankfurt, Germany.jpg", 
+        "description": "Frankfurt  Germany"
+    }
+},
+{
+    "pk": 20, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 19, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Geneva, Switzerland.jpg", 
+        "description": "Geneva  Switzerland"
+    }
+},
+{
+    "pk": 21, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 20, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Inverness, Scotland.jpg", 
+        "description": "Inverness  Scotland"
+    }
+},
+{
+    "pk": 22, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 21, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Lisbon, Portugal.jpg", 
+        "description": "Lisbon  Portugal"
+    }
+},
+{
+    "pk": 23, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 22, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Liverpool, England.jpg", 
+        "description": "Liverpool  England"
+    }
+},
+{
+    "pk": 24, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 23, 
+        "gallery": 8, 
+        "file": "uploads/gallery/London, England.jpg", 
+        "description": "London  England"
+    }
+},
+{
+    "pk": 25, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 24, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Long Beach, USA.jpg", 
+        "description": "Long Beach  USA"
+    }
+},
+{
+    "pk": 26, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 25, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Louisville, USA.jpg", 
+        "description": "Louisville  USA"
+    }
+},
+{
+    "pk": 27, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 26, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Marrakech, Morocco.jpg", 
+        "description": "Marrakech  Morocco"
+    }
+},
+{
+    "pk": 28, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 27, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Miami, USA.jpg", 
+        "description": "Miami  USA"
+    }
+},
+{
+    "pk": 29, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 28, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Monaco, Monaco.jpg", 
+        "description": "Monaco  Monaco"
+    }
+},
+{
+    "pk": 30, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 29, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Moscow, Russia.jpg", 
+        "description": "Moscow  Russia"
+    }
+},
+{
+    "pk": 31, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 30, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Naples, Italy.jpg", 
+        "description": "Naples  Italy"
+    }
+},
+{
+    "pk": 32, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 31, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Palermo, Italy.jpg", 
+        "description": "Palermo  Italy"
+    }
+},
+{
+    "pk": 33, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 32, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Paris, France.jpg", 
+        "description": "Paris  France"
+    }
+},
+{
+    "pk": 34, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 33, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Reykjavik, Iceland.jpg", 
+        "description": "Reykjavik  Iceland"
+    }
+},
+{
+    "pk": 35, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 34, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Rome, Italy.jpg", 
+        "description": "Rome  Italy"
+    }
+},
+{
+    "pk": 36, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 35, 
+        "gallery": 8, 
+        "file": "uploads/gallery/San Francisco, USA.jpg", 
+        "description": "San Francisco  USA"
+    }
+},
+{
+    "pk": 37, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 36, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Santiago, Chile.jpg", 
+        "description": "Santiago  Chile"
+    }
+},
+{
+    "pk": 38, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 37, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Seattle, USA.jpg", 
+        "description": "Seattle  USA"
+    }
+},
+{
+    "pk": 39, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 38, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Stockholm, Sweden.jpg", 
+        "description": "Stockholm  Sweden"
+    }
+},
+{
+    "pk": 40, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 39, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Sydney, Australia.jpg", 
+        "description": "Sydney  Australia"
+    }
+},
+{
+    "pk": 41, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 40, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Tempe Town Lake, USA.jpg", 
+        "description": "Tempe Town Lake  USA"
+    }
+},
+{
+    "pk": 42, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 41, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Tokyo, Japan.jpg", 
+        "description": "Tokyo  Japan"
+    }
+},
+{
+    "pk": 43, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 42, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Toronto, Canada.jpg", 
+        "description": "Toronto  Canada"
+    }
+},
+{
+    "pk": 44, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 43, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Vancouver, Canada.jpg", 
+        "description": "Vancouver  Canada"
+    }
+},
+{
+    "pk": 45, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 44, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Venice, Italy.jpg", 
+        "description": "Venice  Italy"
+    }
+},
+{
+    "pk": 46, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 45, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Vienna, Austria.jpg", 
+        "description": "Vienna  Austria"
+    }
+},
+{
+    "pk": 47, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 46, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Warsaw, Poland.jpg", 
+        "description": "Warsaw  Poland"
+    }
+},
+{
+    "pk": 48, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 47, 
+        "gallery": 8, 
+        "file": "uploads/gallery/Yokohama, Japan.jpg", 
+        "description": "Yokohama  Japan"
+    }
+},
+{
+    "pk": 49, 
+    "model": "galleries.galleryimage", 
+    "fields": {
+        "_order": 48, 
+        "gallery": 8, 
+        "file": "uploads/gallery/York, England.jpg", 
+        "description": "York  England"
+    }
+},
+{
+    "pk": 1, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.016Z", 
+        "app_name": "app", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 2, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.018Z", 
+        "app_name": "app", 
+        "migration": "0002_auto__add_presspage__add_press"
+    }
+},
+{
+    "pk": 3, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.037Z", 
+        "app_name": "conf", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 4, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.038Z", 
+        "app_name": "conf", 
+        "migration": "0002_auto__add_field_setting_site"
+    }
+},
+{
+    "pk": 5, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.040Z", 
+        "app_name": "conf", 
+        "migration": "0003_update_site_setting"
+    }
+},
+{
+    "pk": 6, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.041Z", 
+        "app_name": "conf", 
+        "migration": "0004_ssl_account_settings_rename"
+    }
+},
+{
+    "pk": 7, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.061Z", 
+        "app_name": "core", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 8, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.063Z", 
+        "app_name": "pages", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 9, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.065Z", 
+        "app_name": "pages", 
+        "migration": "0002_auto__del_field_page__keywords__add_field_page_keywords_string__chg_fi"
+    }
+},
+{
+    "pk": 10, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.066Z", 
+        "app_name": "blog", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 11, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.068Z", 
+        "app_name": "blog", 
+        "migration": "0002_auto"
+    }
+},
+{
+    "pk": 12, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.069Z", 
+        "app_name": "blog", 
+        "migration": "0003_categories"
+    }
+},
+{
+    "pk": 13, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.071Z", 
+        "app_name": "blog", 
+        "migration": "0004_auto__del_field_blogpost_category"
+    }
+},
+{
+    "pk": 14, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.073Z", 
+        "app_name": "blog", 
+        "migration": "0005_auto__del_comment__add_field_blogpost_comments_count__chg_field_blogpo"
+    }
+},
+{
+    "pk": 15, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.074Z", 
+        "app_name": "blog", 
+        "migration": "0006_auto__del_field_blogpost__keywords__add_field_blogpost_keywords_string"
+    }
+},
+{
+    "pk": 16, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.076Z", 
+        "app_name": "core", 
+        "migration": "0002_auto__del_keyword"
+    }
+},
+{
+    "pk": 17, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.077Z", 
+        "app_name": "core", 
+        "migration": "0003_auto__add_sitepermission"
+    }
+},
+{
+    "pk": 18, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.079Z", 
+        "app_name": "core", 
+        "migration": "0004_set_site_permissions"
+    }
+},
+{
+    "pk": 19, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.080Z", 
+        "app_name": "core", 
+        "migration": "0005_auto__chg_field_sitepermission_user__del_unique_sitepermission_user"
+    }
+},
+{
+    "pk": 20, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.107Z", 
+        "app_name": "generic", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 21, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.108Z", 
+        "app_name": "generic", 
+        "migration": "0002_auto__add_keyword__add_assignedkeyword"
+    }
+},
+{
+    "pk": 22, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.110Z", 
+        "app_name": "generic", 
+        "migration": "0003_auto__add_rating"
+    }
+},
+{
+    "pk": 23, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.111Z", 
+        "app_name": "generic", 
+        "migration": "0004_auto__chg_field_rating_object_pk__chg_field_assignedkeyword_object_pk"
+    }
+},
+{
+    "pk": 24, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.113Z", 
+        "app_name": "generic", 
+        "migration": "0005_keyword_site"
+    }
+},
+{
+    "pk": 25, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.114Z", 
+        "app_name": "generic", 
+        "migration": "0006_move_keywords"
+    }
+},
+{
+    "pk": 26, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.116Z", 
+        "app_name": "generic", 
+        "migration": "0007_auto__add_field_assignedkeyword__order"
+    }
+},
+{
+    "pk": 27, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.118Z", 
+        "app_name": "generic", 
+        "migration": "0008_set_keyword_order"
+    }
+},
+{
+    "pk": 28, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.119Z", 
+        "app_name": "generic", 
+        "migration": "0009_auto__chg_field_keyword_title__chg_field_keyword_slug"
+    }
+},
+{
+    "pk": 29, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.121Z", 
+        "app_name": "generic", 
+        "migration": "0009_auto__del_field_threadedcomment_email_hash"
+    }
+},
+{
+    "pk": 30, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.122Z", 
+        "app_name": "generic", 
+        "migration": "0010_auto__chg_field_keyword_slug__chg_field_keyword_title"
+    }
+},
+{
+    "pk": 31, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.124Z", 
+        "app_name": "generic", 
+        "migration": "0011_auto__add_field_threadedcomment_rating_count__add_field_threadedcommen"
+    }
+},
+{
+    "pk": 32, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.126Z", 
+        "app_name": "generic", 
+        "migration": "0012_auto__add_field_rating_rating_date"
+    }
+},
+{
+    "pk": 33, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.128Z", 
+        "app_name": "generic", 
+        "migration": "0013_auto__add_field_threadedcomment_rating_sum"
+    }
+},
+{
+    "pk": 34, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.129Z", 
+        "app_name": "generic", 
+        "migration": "0014_auto__add_field_rating_user"
+    }
+},
+{
+    "pk": 35, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.156Z", 
+        "app_name": "blog", 
+        "migration": "0007_auto__add_field_blogpost_site"
+    }
+},
+{
+    "pk": 36, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.158Z", 
+        "app_name": "blog", 
+        "migration": "0008_auto__add_field_blogpost_rating_average__add_field_blogpost_rating_cou"
+    }
+},
+{
+    "pk": 37, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.159Z", 
+        "app_name": "blog", 
+        "migration": "0009_auto__chg_field_blogpost_content"
+    }
+},
+{
+    "pk": 38, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.162Z", 
+        "app_name": "blog", 
+        "migration": "0010_category_site_allow_comments"
+    }
+},
+{
+    "pk": 39, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.163Z", 
+        "app_name": "blog", 
+        "migration": "0011_comment_site_data"
+    }
+},
+{
+    "pk": 40, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.165Z", 
+        "app_name": "blog", 
+        "migration": "0012_auto__add_field_blogpost_featured_image"
+    }
+},
+{
+    "pk": 41, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.167Z", 
+        "app_name": "blog", 
+        "migration": "0013_auto__chg_field_blogpost_featured_image"
+    }
+},
+{
+    "pk": 42, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.168Z", 
+        "app_name": "blog", 
+        "migration": "0014_auto__add_field_blogpost_gen_description"
+    }
+},
+{
+    "pk": 43, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.169Z", 
+        "app_name": "blog", 
+        "migration": "0015_auto__chg_field_blogcategory_title__chg_field_blogcategory_slug__chg_f"
+    }
+},
+{
+    "pk": 44, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.171Z", 
+        "app_name": "blog", 
+        "migration": "0016_add_field_blogpost__meta_title"
+    }
+},
+{
+    "pk": 45, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.172Z", 
+        "app_name": "blog", 
+        "migration": "0017_add_field_blogpost__related_posts"
+    }
+},
+{
+    "pk": 46, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.174Z", 
+        "app_name": "blog", 
+        "migration": "0018_auto__add_field_blogpost_in_sitemap"
+    }
+},
+{
+    "pk": 47, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.175Z", 
+        "app_name": "blog", 
+        "migration": "0019_auto__add_field_blogpost_rating_sum"
+    }
+},
+{
+    "pk": 48, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.177Z", 
+        "app_name": "blog", 
+        "migration": "0020_auto__add_field_blogpost_created__add_field_blogpost_updated"
+    }
+},
+{
+    "pk": 49, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.199Z", 
+        "app_name": "forms", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 50, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.201Z", 
+        "app_name": "forms", 
+        "migration": "0002_auto__add_field_field_placeholder_text"
+    }
+},
+{
+    "pk": 51, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.202Z", 
+        "app_name": "forms", 
+        "migration": "0003_auto__chg_field_field_field_type"
+    }
+},
+{
+    "pk": 52, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.204Z", 
+        "app_name": "forms", 
+        "migration": "0004_auto__chg_field_form_response__chg_field_form_content"
+    }
+},
+{
+    "pk": 53, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.205Z", 
+        "app_name": "forms", 
+        "migration": "0005_auto__chg_field_fieldentry_value"
+    }
+},
+{
+    "pk": 54, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.229Z", 
+        "app_name": "pages", 
+        "migration": "0003_auto__add_field_page_site"
+    }
+},
+{
+    "pk": 55, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.232Z", 
+        "app_name": "pages", 
+        "migration": "0004_auto__del_contentpage__add_richtextpage"
+    }
+},
+{
+    "pk": 56, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.234Z", 
+        "app_name": "pages", 
+        "migration": "0005_rename_contentpage"
+    }
+},
+{
+    "pk": 57, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.235Z", 
+        "app_name": "pages", 
+        "migration": "0006_auto__add_field_page_gen_description"
+    }
+},
+{
+    "pk": 58, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.237Z", 
+        "app_name": "pages", 
+        "migration": "0007_auto__chg_field_page_slug__chg_field_page_title"
+    }
+},
+{
+    "pk": 59, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.238Z", 
+        "app_name": "pages", 
+        "migration": "0008_auto__add_link"
+    }
+},
+{
+    "pk": 60, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.240Z", 
+        "app_name": "pages", 
+        "migration": "0009_add_field_page_in_menus"
+    }
+},
+{
+    "pk": 61, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.241Z", 
+        "app_name": "pages", 
+        "migration": "0010_set_menus"
+    }
+},
+{
+    "pk": 62, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.243Z", 
+        "app_name": "pages", 
+        "migration": "0011_delete_nav_flags"
+    }
+},
+{
+    "pk": 63, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.244Z", 
+        "app_name": "pages", 
+        "migration": "0012_add_field_page__meta_title"
+    }
+},
+{
+    "pk": 64, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.246Z", 
+        "app_name": "pages", 
+        "migration": "0013_auto__add_field_page_in_sitemap"
+    }
+},
+{
+    "pk": 65, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.247Z", 
+        "app_name": "pages", 
+        "migration": "0014_auto__add_field_page_created__add_field_page_updated"
+    }
+},
+{
+    "pk": 66, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.311Z", 
+        "app_name": "galleries", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 67, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.333Z", 
+        "app_name": "twitter", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 68, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-08-08T22:20:11.335Z", 
+        "app_name": "twitter", 
+        "migration": "0002_auto__chg_field_query_value"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_jobspage", 
+        "name": "Can add jobs page", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_jobspage", 
+        "name": "Can change jobs page", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_jobspage", 
+        "name": "Can delete jobs page", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_job", 
+        "name": "Can add job", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_job", 
+        "name": "Can change job", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_job", 
+        "name": "Can delete job", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_presspage", 
+        "name": "Can add press page", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_presspage", 
+        "name": "Can change press page", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_presspage", 
+        "name": "Can delete press page", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_press", 
+        "name": "Can add press", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_press", 
+        "name": "Can change press", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_press", 
+        "name": "Can delete press", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 25, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_redirect", 
+        "name": "Can add redirect", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 26, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_redirect", 
+        "name": "Can change redirect", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 27, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_redirect", 
+        "name": "Can delete redirect", 
+        "content_type": 9
+    }
+},
+{
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_site", 
+        "name": "Can add site", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_site", 
+        "name": "Can change site", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_site", 
+        "name": "Can delete site", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_setting", 
+        "name": "Can add Setting", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_setting", 
+        "name": "Can change Setting", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_setting", 
+        "name": "Can delete Setting", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 37, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_sitepermission", 
+        "name": "Can add Site permission", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 38, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_sitepermission", 
+        "name": "Can change Site permission", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 39, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_sitepermission", 
+        "name": "Can delete Site permission", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_threadedcomment", 
+        "name": "Can add Comment", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_threadedcomment", 
+        "name": "Can change Comment", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_threadedcomment", 
+        "name": "Can delete Comment", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 43, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_keyword", 
+        "name": "Can add Keyword", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 44, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_keyword", 
+        "name": "Can change Keyword", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 45, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_keyword", 
+        "name": "Can delete Keyword", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 46, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_assignedkeyword", 
+        "name": "Can add assigned keyword", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 47, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_assignedkeyword", 
+        "name": "Can change assigned keyword", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 48, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_assignedkeyword", 
+        "name": "Can delete assigned keyword", 
+        "content_type": 16
+    }
+},
+{
+    "pk": 49, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_rating", 
+        "name": "Can add Rating", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 50, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_rating", 
+        "name": "Can change Rating", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 51, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_rating", 
+        "name": "Can delete Rating", 
+        "content_type": 17
+    }
+},
+{
+    "pk": 52, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_blogpost", 
+        "name": "Can add Blog post", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 53, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_blogpost", 
+        "name": "Can change Blog post", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 54, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_blogpost", 
+        "name": "Can delete Blog post", 
+        "content_type": 18
+    }
+},
+{
+    "pk": 55, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_blogcategory", 
+        "name": "Can add Blog Category", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 56, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_blogcategory", 
+        "name": "Can change Blog Category", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 57, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_blogcategory", 
+        "name": "Can delete Blog Category", 
+        "content_type": 19
+    }
+},
+{
+    "pk": 58, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_form", 
+        "name": "Can add Form", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 59, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_form", 
+        "name": "Can change Form", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 60, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_form", 
+        "name": "Can delete Form", 
+        "content_type": 20
+    }
+},
+{
+    "pk": 61, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_field", 
+        "name": "Can add Field", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 62, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_field", 
+        "name": "Can change Field", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 63, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_field", 
+        "name": "Can delete Field", 
+        "content_type": 21
+    }
+},
+{
+    "pk": 64, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_formentry", 
+        "name": "Can add Form entry", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 65, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_formentry", 
+        "name": "Can change Form entry", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 66, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_formentry", 
+        "name": "Can delete Form entry", 
+        "content_type": 22
+    }
+},
+{
+    "pk": 67, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_fieldentry", 
+        "name": "Can add Form field entry", 
+        "content_type": 23
+    }
+},
+{
+    "pk": 68, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_fieldentry", 
+        "name": "Can change Form field entry", 
+        "content_type": 23
+    }
+},
+{
+    "pk": 69, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_fieldentry", 
+        "name": "Can delete Form field entry", 
+        "content_type": 23
+    }
+},
+{
+    "pk": 70, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_page", 
+        "name": "Can add Page", 
+        "content_type": 24
+    }
+},
+{
+    "pk": 71, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_page", 
+        "name": "Can change Page", 
+        "content_type": 24
+    }
+},
+{
+    "pk": 72, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_page", 
+        "name": "Can delete Page", 
+        "content_type": 24
+    }
+},
+{
+    "pk": 73, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_richtextpage", 
+        "name": "Can add Rich text page", 
+        "content_type": 25
+    }
+},
+{
+    "pk": 74, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_richtextpage", 
+        "name": "Can change Rich text page", 
+        "content_type": 25
+    }
+},
+{
+    "pk": 75, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_richtextpage", 
+        "name": "Can delete Rich text page", 
+        "content_type": 25
+    }
+},
+{
+    "pk": 76, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_link", 
+        "name": "Can add Link", 
+        "content_type": 26
+    }
+},
+{
+    "pk": 77, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_link", 
+        "name": "Can change Link", 
+        "content_type": 26
+    }
+},
+{
+    "pk": 78, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_link", 
+        "name": "Can delete Link", 
+        "content_type": 26
+    }
+},
+{
+    "pk": 79, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_gallery", 
+        "name": "Can add Gallery", 
+        "content_type": 27
+    }
+},
+{
+    "pk": 80, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_gallery", 
+        "name": "Can change Gallery", 
+        "content_type": 27
+    }
+},
+{
+    "pk": 81, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_gallery", 
+        "name": "Can delete Gallery", 
+        "content_type": 27
+    }
+},
+{
+    "pk": 82, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_galleryimage", 
+        "name": "Can add Image", 
+        "content_type": 28
+    }
+},
+{
+    "pk": 83, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_galleryimage", 
+        "name": "Can change Image", 
+        "content_type": 28
+    }
+},
+{
+    "pk": 84, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_galleryimage", 
+        "name": "Can delete Image", 
+        "content_type": 28
+    }
+},
+{
+    "pk": 85, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_query", 
+        "name": "Can add Twitter query", 
+        "content_type": 29
+    }
+},
+{
+    "pk": 86, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_query", 
+        "name": "Can change Twitter query", 
+        "content_type": 29
+    }
+},
+{
+    "pk": 87, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_query", 
+        "name": "Can delete Twitter query", 
+        "content_type": 29
+    }
+},
+{
+    "pk": 88, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_tweet", 
+        "name": "Can add Tweet", 
+        "content_type": 30
+    }
+},
+{
+    "pk": 89, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_tweet", 
+        "name": "Can change Tweet", 
+        "content_type": 30
+    }
+},
+{
+    "pk": 90, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_tweet", 
+        "name": "Can delete Tweet", 
+        "content_type": 30
+    }
+},
+{
+    "pk": 91, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_migrationhistory", 
+        "name": "Can add migration history", 
+        "content_type": 31
+    }
+},
+{
+    "pk": 92, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_migrationhistory", 
+        "name": "Can change migration history", 
+        "content_type": 31
+    }
+},
+{
+    "pk": 93, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_migrationhistory", 
+        "name": "Can delete migration history", 
+        "content_type": 31
+    }
+},
+{
+    "pk": 94, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 32
+    }
+},
+{
+    "pk": 95, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 32
+    }
+},
+{
+    "pk": 96, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 32
+    }
+},
+{
+    "pk": 97, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_comment", 
+        "name": "Can add comment", 
+        "content_type": 33
+    }
+},
+{
+    "pk": 98, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_comment", 
+        "name": "Can change comment", 
+        "content_type": 33
+    }
+},
+{
+    "pk": 99, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_comment", 
+        "name": "Can delete comment", 
+        "content_type": 33
+    }
+},
+{
+    "pk": 100, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "can_moderate", 
+        "name": "Can moderate comments", 
+        "content_type": 33
+    }
+},
+{
+    "pk": 101, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_commentflag", 
+        "name": "Can add comment flag", 
+        "content_type": 34
+    }
+},
+{
+    "pk": 102, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_commentflag", 
+        "name": "Can change comment flag", 
+        "content_type": 34
+    }
+},
+{
+    "pk": 103, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_commentflag", 
+        "name": "Can delete comment flag", 
+        "content_type": 34
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "liorsabag", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-08-15T22:51:23.699Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$12000$cMDGuMKxJpwM$XsXG/MnTtgWI9VSQBt+uI0yGklh7XasIrYF8jRTBEMo=", 
+        "email": "sabag.lior@gmail.com", 
+        "date_joined": "2014-08-08T22:19:10.879Z"
+    }
+},
+{
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T15:56:41.057Z", 
+        "object_repr": "127.0.0.1:8000", 
+        "object_id": "1", 
+        "change_message": "Changed name.", 
+        "user": 1, 
+        "content_type": 11
+    }
+},
+{
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T15:58:56.772Z", 
+        "object_repr": "Blog", 
+        "object_id": "1", 
+        "change_message": "Changed in_menus and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-08-13T16:00:29.476Z", 
+        "object_repr": "Terms of Use", 
+        "object_id": "11", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:00:40.517Z", 
+        "object_repr": "Terms of Use", 
+        "object_id": "11", 
+        "change_message": "Changed content, in_menus and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:00:51.070Z", 
+        "object_repr": "Privacy", 
+        "object_id": "4", 
+        "change_message": "Changed in_menus and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:01:27.676Z", 
+        "object_repr": "Press", 
+        "object_id": "10", 
+        "change_message": "Changed status, in_menus and keywords.", 
+        "user": 1, 
+        "content_type": 3
+    }
+},
+{
+    "pk": 7, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:05:43.816Z", 
+        "object_repr": "Terms of Use", 
+        "object_id": "11", 
+        "change_message": "Changed content and id.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 8, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:06:03.895Z", 
+        "object_repr": "Terms of Use", 
+        "object_id": "11", 
+        "change_message": "Changed content and id.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 9, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-13T16:29:22.787Z", 
+        "object_repr": "Terms of Use", 
+        "object_id": "11", 
+        "change_message": "Changed content and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 10, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-14T20:57:34.092Z", 
+        "object_repr": "Terms & Conditions", 
+        "object_id": "11", 
+        "change_message": "Changed title, content, description and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 11, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-08-15T00:13:41.025Z", 
+        "object_repr": "Job 2", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 2
+    }
+},
+{
+    "pk": 12, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-15T01:38:29.263Z", 
+        "object_repr": "Terms & Conditions", 
+        "object_id": "11", 
+        "change_message": "Changed content, description and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 13, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-15T20:49:50.678Z", 
+        "object_repr": "Terms & Conditions", 
+        "object_id": "11", 
+        "change_message": "Changed content, description and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 14, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-15T22:45:28.211Z", 
+        "object_repr": "Terms & Conditions", 
+        "object_id": "11", 
+        "change_message": "Changed content, description and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+},
+{
+    "pk": 15, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-08-15T22:52:41.590Z", 
+        "object_repr": "Terms & Conditions", 
+        "object_id": "11", 
+        "change_message": "Changed content, description and keywords.", 
+        "user": 1, 
+        "content_type": 25
+    }
+}
+]
